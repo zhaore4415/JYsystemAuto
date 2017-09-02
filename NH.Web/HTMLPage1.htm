@@ -1,0 +1,116 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ajax例子--登录用户名自动检测无需再设置其他的按钮</title>
+    <!--<link href="StyleSheet.css" rel="stylesheet" type="text/css" />-->
+    <script runat="server" type="text/C#">  
+     protected void Page_Load(object sender, EventArgs e)  
+    {  
+            // 得到要验证的用户名。  
+            string candidateUserName = Request["UserName"];  
+          
+            // 初始化验证标记，为false。  
+            bool isValid = false;  
+            // 如果转换为小写字母不为tgb则返回true。  
+            if (candidateUserName.ToLower() != "tgb")  
+            {  
+                isValid = true;  
+            }  
+          
+            // 清除缓存区所有的html输出。  
+            Response.Clear();  
+            //将指定字符写入HTTP输出。  
+            Response.Write(isValid ? "true" : "false");  
+            //立即发送缓存区的输出。  
+            Response.Flush();      }  
+    </script>
+    <script type="text/javascript">
+        //定义XMLHttpRequest对象，var是可变参数类型，代表任何一种数据类型。  
+        var xmlHttp = false;
+
+        //该时候检查输入用户名数据库中是否已经存在。  
+        function checkUserName() {
+
+            // 检查输入的用户名是否为空。  
+            var tbUserName = document.getElementById('tbUserName');
+            if (tbUserName.value == "")
+                return;
+
+            // 创建 XMLHttpRequest 对象  
+            try {
+                //使用较新版本的IE浏览器。  
+                xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+
+            }
+            catch (e) {
+                try {
+                    //如果为低版本的浏览器。  
+                    xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e2) {
+                    //XMLHttpRequest对象创建失败，保证Request的值仍为false。  
+                    xmlHttp = false;
+                }
+            }
+            //验证创建是否成功，不为ie，则为除了ie之外的谷歌 360 火狐等浏览器。  
+            if (!xmlHttp && typeof XMLHttpRequest != 'undefined') {
+                xmlHttp = new XMLHttpRequest();
+            }
+
+
+            // 转到的链接地址。  
+            var url = "CheckUserNameService.aspx?UserName=" + tbUserName.value;
+
+            // 规定请求的类型、URL 以及是否异步处理请求。Get类型，true为异步执行。  
+            xmlHttp.open("GET", url, true);
+
+            //onreadystatechange.也就是XMLHttRequest对象的readyState属性改变时。当请求被发送时执行的一些响应任务。  
+            xmlHttp.onreadystatechange = callBack_CheckUserName;
+
+            // Send the request  
+            xmlHttp.send(null);
+
+        }
+        //以参数形式传递到另一个函数的函数。  
+        function callBack_CheckUserName() {
+            //readyState方法是存有XMLHttpRequest状态，从0到4。  
+            //0是请求未初始化，1服务器连接已经建立 2 请求已经接受 3 请求处理中 4 请求已完成，且响应已就绪。  
+            if (xmlHttp.readyState == 4) {
+                //  如果服务器的响应并非是XML使用responseText否则使用responseXML。responsText返回服务器字符串形式的响应。  
+                var isValid = xmlHttp.responseText;
+                //选择出显示验证结果的标签。  
+                var checkResult = document.getElementById("checkResult");
+                //innerHtml为脱去标签的的外衣。例如，<span>您好</span>，显示您好。  
+                checkResult.innerHTML = (isValid == "true") ? "恭喜您，这个用户名可以使用" : "很抱歉该会员名已经被使用";
+            }
+        }  
+  
+      
+    </script>
+</head>
+<body>
+    <table id="registerForm">
+        <tr>
+            <td class="title">
+                用户名
+            </td>
+            <td>
+                <input id="tbUserName" type="text" onblur="checkUserName()" />
+                <span id="checkResult"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="title">
+                密码
+            </td>
+            <td>
+                <input id="tbPassword" type="password" />
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <input id="btnSubmit" type="submit" value="提交" onclick="checkUserName()" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

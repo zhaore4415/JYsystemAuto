@@ -1,0 +1,82 @@
+.minus {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 34px;
+    height: 40px;
+    border-right: 1px solid #eaeaea;
+    float: left;
+}
+.minus:after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    border-top: 2px solid #333;
+    width: 15px;
+}
+.plus {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 34px;
+    height: 40px;
+    border-left: 1px solid #eaeaea;
+    float: right;
+}
+.plus:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    border-top: 2px solid #333;
+    top: 19px;
+    left: 14px;
+}
+.plus:before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    border-left: 2px solid #333;
+    top: 12px;
+    left: 21px;
+}
+.txtCls {
+    -webkit-appearance: none;
+    width: 50px;
+    height: 38px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    vertical-align: top;
+    font-size: 16px;
+}
+.tijiaodingdan {
+    float: right;
+    overflow: hidden;
+    margin-right: 50px;
+    margin-top: 50px;
+}.tijiaodingdan p {
+    font-size: 26px;
+    line-height: 30px;
+    margin-right: 26px;
+    float: left;
+}
+.jifenxinxi {
+    clear: both;
+    margin-left: 28px;
+    margin-bottom: 10px;
+    float:left;width:80%;
+}
+  .liebiao{width: 300px;
+    float: left;}
+.dingdanliebiao span{float:right; width:35%;margin-top: 10px;margin-left: 10px;  margin-bottom: 20px;}
+  .pages{margin:10px 20px;}
+ .pages a{display:inline-block; padding:3px 5px; color:#666; border:1px #ccc solid; margin-right:4px}
+ .pages a span{margin:auto 5px; cursor:pointer}
+ .pages a.normal{}
+ .pages a:link,pager:visited{ text-decoration:none;}
+ .pages a:hover{text-decoration:none; color:#000; background:#999}
+ .pages a.selectedpage{color:#000; font-weight:bold; text-decoration:none; border:none; background:#999}
+ .pages a.selectedpage:hover{background:1461b5}
+ .pages a.prevpage{}
+ .pages a.disabled span{cursor:inherit; text-decoration:none}

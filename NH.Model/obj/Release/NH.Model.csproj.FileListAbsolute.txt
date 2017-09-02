@@ -1,0 +1,10 @@
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.Model\bin\Release\NH.Model.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.Model\bin\Release\NH.Model.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.Model\obj\Release\NH.Model.csprojResolveAssemblyReference.cache
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.Model\obj\Release\NH.Model.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.Model\obj\Release\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.Model\bin\Release\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.Model\bin\Release\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.Model\obj\Release\NH.Model.csprojResolveAssemblyReference.cache
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.Model\obj\Release\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.Model\obj\Release\NH.Model.pdb

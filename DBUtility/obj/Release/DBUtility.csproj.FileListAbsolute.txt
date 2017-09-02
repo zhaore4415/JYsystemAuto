@@ -1,0 +1,4 @@
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\DBUtility\bin\Release\Maticsoft.DBUtility.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\DBUtility\obj\Release\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\DBUtility\bin\Release\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\DBUtility\obj\Release\Maticsoft.DBUtility.dll

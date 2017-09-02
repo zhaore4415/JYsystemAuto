@@ -1,0 +1,74 @@
+﻿*{ margin:0px; padding:0px}
+html,body { font-family:宋体; font-size:13px; width:100%; height:100%; background-color:#fafafe;color:#000000;background-image:url(../images/content_bg.gif); background-repeat:repeat-x;}
+
+a{ color:#000000; outline:0}
+a:active{start:expression(this.hideFocus=true)}
+
+textarea{ overflow:auto}
+input,textarea,select{ color:#000000;border:solid 1px #ddd}
+
+.operate{ padding:2px;}
+
+#message{ position:absolute; top:0px; left:0px; z-index:999; width:100%; height:100%; background-color:#000; display:none}
+#show_logo{ margin-top:150px;padding:2px; border:solid 1px #ddd; background-color:#fff; position:absolute; z-index:99999; display:none; top:0px; left:0px;}
+
+#manage{ width:100%; height:100%; background-color:#EEF2FB}
+#manage #header{ height:80px; background-image:url(../images/top_bg.jpg)}
+#manage #header #logo{float:left; height:80px; background:url(../images/logo.png) no-repeat center center; width:280px;}
+#manage #header #title{float:right;height:50px; line-height:50px; color:#f8f8f8; font-size:13px; padding-right:15px; font-family:黑体;}
+#manage #header #title a{ color:#fff}
+#manage #header #title a:hover{ color:#dfdfdf;}
+#manage #header #title span{ padding-left:10px; text-transform:capitalize}
+#manage #header #close{float:right; margin-top:15px; padding-right:15px}
+#manage #left{ width:182px; vertical-align:top}
+#manage #left p{ height:27px; line-height:27px; background-image:url(../images/menu_bg.gif); text-align:center; font-weight:bold; cursor:pointer}
+#manage #left p.first{ height:30px; line-height:30px; background-image:url(../images/menu_bgs.gif);}
+#manage #left div.list{ padding-top:5px; background-image:url(../images/menu_topline.gif); background-repeat:no-repeat; display:none}
+#manage #left div.list a{ height:26px; line-height:26px; background-image:url(../images/menu_bg1.gif); display:block; padding-left:60px; color:#638694}
+#manage #left div.list a:hover{ background-image:url(../images/menu_bg2.gif); color:#006600; font-weight:bold}
+#manage #left div.list span{ height:8px; background-image:url(../images/menu_bg1.gif); display:block; width:182px;}
+#Div_Content{ display:none; position:absolute; z-index:999999; top:100px; left:0; width:500px; height:300px; border:solid 2px #ccc; background-color:#F1F3F6}
+#content{background-image:url(../images/buttom_bgs.gif); background-position:left bottom; height:100%;background-repeat:repeat-x; float:right; border:solid 1px #9eaeb9; display:block; vertical-align:text-top;border-left-width:2px; border-right-width:2px; border-top-width:2px; background-color:#F7F7FD}
+
+#intro{ padding:5px 10px;}
+/*——————分页样式——————*/
+.pager{ text-align:center; padding:10px;}
+.pager a{ padding:2px 6px; color:#638694; background-color:#eee; text-decoration:none;border:solid 1px #ddd; margin-right:5px;}
+.pager a span{ margin:auto 2px; cursor:pointer;}
+.pager a.normal{ cursor:default;}
+.pager a:link,pager:visited{ text-decoration:none; background-color:#fff;font-weight:bold}
+.pager a:hover{ text-decoration:underline; color:#006600; background-color:#fff}
+.pager a.selectedpage{ color:#ff0000; font-weight:bold; text-decoration:none; cursor:default; background-color:#fff;}
+.pager a.prevpage{}
+.pager a.disabled{ color:#999999; cursor:default; text-decoration:none;}
+.pager a.disabled span{ cursor:default;}
+
+#tablist{ width:100%; border-right:solid 1px #ddd; border-top:solid 1px #ddd; background-color:#fff; border-collapse:collapse;}
+#tablist tr td{ text-align:center;border-left:solid 1px #ddd; border-bottom:solid 1px #ddd; empty-cells:show;}
+#tablist tr.th{height:31px; background-image:url(../images/news-title-bg.png); background-repeat:repeat-x; text-align:center; line-height:31px; white-space:nowrap;}
+#tablist tr.th a{ color:#fff}
+#tablist tr.tr{ height:24px; line-height:24px}
+#tablist tr th.left,#tablist tr td.left{ text-align:left;}
+.highlight{ background-color:#eef2fb}
+
+.frmborder{ background-color:#fff; border:1px solid #ddd; line-height:25px; margin-bottom:10px; padding:5px;}
+.tbitem{margin-bottom:20px;}
+.frmborder p{ height:25px; line-height:25px; text-indent:25px;}
+.frmborder p.tab{ text-align:left;  margin-bottom:10px; text-indent:0; border-bottom:solid 1px #ddd}
+.frmborder p.title{height:25px; line-height:25px; background-image:url(../images/news-title-bg.gif); text-align:center; font-weight:bold}
+.frmborder p.title span{ position:absolute; z-index:999; display:block; padding:0px 10px; float:left; height:26px; line-height:27px; background-color:#F7F7FD; text-align:center; margin-left:15px; border-left:solid 1px #ddd; border-right:solid 1px #ddd}
+
+#Add {padding:10px 10px 0px 10px;}
+.utable{border-collapse:collapse;border:solid #ddd;border-width:1px 1px 1px 1px;width:100%;}
+.utable th{width:130px;font-weight:normal; background-color:#fff; text-align:right;}
+.utable th,.utable td{height:25px; line-height:25px;border:solid #ddd;border-width:0 1px 1px 0;padding:5px 10px;}
+.utable td.center{text-align:center;}
+.utable input.txtCls{ border:1px solid #ddd; height:16px; line-height:16px; padding:2px 5px;}
+
+/*.txtCls{margin-right:3px; width:80px; padding:2px 5px;font-size:13px; border:solid 1px #6286a9}*/
+input.btnSubmit{width:100px;padding:0px 10px; height:27px; line-height:25px; font-size:12px; margin-right:15px; cursor:pointer;border:solid 1px #ddd; background-image:url(../images/right_smbg.jpg); color:#638694}
+input.txtSmall{margin:0px; margin-right:3px; width:80px; padding:2px 5px;font-size:13px; border:solid 1px #6286a9}
+input.btnSmall{border:solid 1px #ddd; background-image:url(../images/right_smbg.jpg); cursor:pointer; color:#6286a9; width:80px; margin-right:3px; padding:2px 5px;}
+
+.ftbContent_Toolbar td{ border:none;}
+.ftbContent_Toolbar table,.ftbContent_Toolbar td{ border:none; padding:0px;}

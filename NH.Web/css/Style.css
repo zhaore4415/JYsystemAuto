@@ -1,0 +1,44 @@
+﻿body {background-color: #eeeeee;
+}
+a {color:#fff
+}
+a:hover{color:#158ff7
+}
+.mt20 {margin-top:20px;
+}
+.mt30 {margin-top:30px;
+}
+.mt50 {margin-top:50px;
+}
+.mt100 {margin-top:100px;
+}
+.ml100 {margin-left:100px;
+}
+.navbar-default {
+    background-color: #000;
+    border-color: #e7e7e7;
+}
+.navbar-default {
+    height:80px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;height:80px;    line-height: 50px;
+}
+
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+.navbar-collapse span {float:right;height:80px;line-height:80px;margin-right:200px
+}
+header {width:100%; background-color: #000;
+}.navbar {
+ margin-bottom: 0px; 
+    border:0px solid transparent; 
+}
+ .col-center-block {  
+    float: none;  
+    display: block;  
+ margin: 0 auto;
+}

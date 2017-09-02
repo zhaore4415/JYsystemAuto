@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5820C8AF-D8E7-4F8E-B46E-2A417A6DDB42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NH.DAL</RootNamespace>
+    <AssemblyName>NH.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ad.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleCategory.cs" />
+    <Compile Include="AUser.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="FaPiao.cs" />
+    <Compile Include="Generate\Accounting.cs" />
+    <Compile Include="Generate\Car.cs" />
+    <Compile Include="Generate\Carfx.cs" />
+    <Compile Include="Generate\city.cs" />
+    <Compile Include="Generate\Engineering.cs" />
+    <Compile Include="Generate\ERPForm.cs" />
+    <Compile Include="Experience.cs" />
+    <Compile Include="FunCode.cs" />
+    <Compile Include="Generate\Ad.cs" />
+    <Compile Include="Generate\AdType.cs" />
+    <Compile Include="Generate\Area.cs" />
+    <Compile Include="Generate\Article.cs" />
+    <Compile Include="Generate\ArticleCategory.cs" />
+    <Compile Include="Generate\AUser.cs" />
+    <Compile Include="Generate\ComeTime.cs" />
+    <Compile Include="Generate\Company.cs" />
+    <Compile Include="Generate\Config.cs" />
+    <Compile Include="Generate\Degree.cs" />
+    <Compile Include="Generate\EmailConfig.cs" />
+    <Compile Include="Generate\EmailValidateCode.cs" />
+    <Compile Include="Generate\ERPBuMen.cs" />
+    <Compile Include="Generate\ERPBuyOrder.cs" />
+    <Compile Include="Generate\ERPDengJi.cs" />
+    <Compile Include="Generate\ERPFormType.cs" />
+    <Compile Include="Generate\ERPKaoQinSetting.cs" />
+    <Compile Include="Generate\ERPRiZhi.cs" />
+    <Compile Include="Generate\Experience.cs" />
+    <Compile Include="Generate\FaPiao.cs" />
+    <Compile Include="Generate\FunCode.cs" />
+    <Compile Include="Generate\FunGroup.cs" />
+    <Compile Include="Generate\IdentityVerify.cs" />
+    <Compile Include="Generate\Interview.cs" />
+    <Compile Include="Generate\Job.cs" />
+    <Compile Include="Generate\Member.cs" />
+    <Compile Include="Generate\OnlinePayOrder.cs" />
+    <Compile Include="Generate\OnLineService.cs" />
+    <Compile Include="Generate\Orderdetails.cs" />
+    <Compile Include="Generate\PersonRefresh.cs" />
+    <Compile Include="Generate\ProCategory.cs" />
+    <Compile Include="Generate\Product.cs" />
+    <Compile Include="Generate\ProjectManager.cs" />
+    <Compile Include="Generate\province.cs" />
+    <Compile Include="Generate\Queryorder.cs" />
+    <Compile Include="Generate\Bill.cs" />
+    <Compile Include="Generate\ReadResume.cs" />
+    <Compile Include="Generate\ReceiveRecord.cs" />
+    <Compile Include="Generate\RecommendCode.cs" />
+    <Compile Include="Generate\ResumeViewLog.cs" />
+    <Compile Include="Generate\Role.cs" />
+    <Compile Include="Generate\RoleFun.cs" />
+    <Compile Include="Generate\Salary.cs" />
+    <Compile Include="Generate\SearchKey.cs" />
+    <Compile Include="Generate\Sector.cs" />
+    <Compile Include="Generate\Service2Company.cs" />
+    <Compile Include="Generate\Shen.cs" />
+    <Compile Include="Generate\Shi.cs" />
+    <Compile Include="Generate\ShouJu.cs" />
+    <Compile Include="Generate\SmsCode.cs" />
+    <Compile Include="Generate\SWX_Config.cs" />
+    <Compile Include="Generate\SysLog.cs" />
+    <Compile Include="Generate\SysNewsRecord.cs" />
+    <Compile Include="Generate\TransRecords.cs" />
+    <Compile Include="Generate\User.cs" />
+    <Compile Include="Generate\UserRemark.cs" />
+    <Compile Include="Generate\UserRole.cs" />
+    <Compile Include="Generate\UserSuggest.cs" />
+    <Compile Include="Generate\VipCompanyLog.cs" />
+    <Compile Include="Generate\Aftersales.cs" />
+    <Compile Include="Generate\Suppliers.cs" />
+    <Compile Include="Generate\Staff.cs" />
+    <Compile Include="Generate\WaiChuZhen.cs" />
+    <Compile Include="Generate\Xian.cs" />
+    <Compile Include="Interview.cs" />
+    <Compile Include="Job.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="OnLineService.cs" />
+    <Compile Include="PersonRefresh.cs" />
+    <Compile Include="ProCategory.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queryorder.cs" />
+    <Compile Include="ReadResume.cs" />
+    <Compile Include="ReceiveRecord.cs" />
+    <Compile Include="RecommendCode.cs" />
+    <Compile Include="ResumeViewLog.cs" />
+    <Compile Include="RoleFun.cs" />
+    <Compile Include="SearchKey.cs" />
+    <Compile Include="Service2Company.cs" />
+    <Compile Include="ShouJu.cs" />
+    <Compile Include="SignUp2Company.cs" />
+    <Compile Include="SysNewsRecord.cs" />
+    <Compile Include="TransRecords.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserRemark.cs" />
+    <Compile Include="UserRole.cs" />
+    <Compile Include="UserSuggest.cs" />
+    <Compile Include="Sector.cs" />
+    <Compile Include="Engineering.cs" />
+    <Compile Include="WaiChuZhen.cs" />
+    <Compile Include="Accounting.cs" />
+    <Compile Include="Xian.cs" />
+    <Compile Include="Carfx.cs" />
+    <Compile Include="Bill.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NH.Model\NH.Model.csproj">
+      <Project>{164A2BDA-DFD7-4FFA-8BE3-2B439577F495}</Project>
+      <Name>NH.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

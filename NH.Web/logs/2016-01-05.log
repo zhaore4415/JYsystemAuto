@@ -1,0 +1,84 @@
+2016-01-05 14:43:02.955 INFO ASP.member_nativepaypage_aspx: page load
+2016-01-05 14:43:02.972 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2016-01-05 14:43:03.008 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[空气净化器x,测试2]]></body><goods_tag><![CDATA[2019]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[2ed2636c571e4f53b0ae5f49a8102678]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220160105144302800]]></out_trade_no><product_id><![CDATA[15122309521849]]></product_id><sign><![CDATA[6B7B5610DA24940BBECC61783F5C8395]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20160105145302]]></time_expire><time_start><![CDATA[20160105144302]]></time_start><total_fee><![CDATA[3001]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2016-01-05 14:43:03.771 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[MtYDUnQlpW3CoJfZ]]></nonce_str>
+<sign><![CDATA[0ED52C4606A1666A6CF4450485E86F33]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[当前使用此业务的用户较多，请稍后再试。]]></err_code_des>
+</xml>
+2016-01-05 14:46:05.183 INFO ASP.member_nativepaypage_aspx: page load
+2016-01-05 14:46:05.184 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2016-01-05 14:46:05.185 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[空气净化器x]]></body><goods_tag><![CDATA[20]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[495f8d3cd1ab434799a1212d8ffc7496]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220160105144605260]]></out_trade_no><product_id><![CDATA[15122309521849]]></product_id><sign><![CDATA[C384B9F7D340A3ACD93EFEB3D089E2D7]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20160105145605]]></time_expire><time_start><![CDATA[20160105144605]]></time_start><total_fee><![CDATA[3000]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2016-01-05 14:46:05.666 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[mYsfYebIbzkq5FVs]]></nonce_str>
+<sign><![CDATA[148F494245BAFA4B0616A4DF1CFFCEEE]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[当前使用此业务的用户较多，请稍后再试。]]></err_code_des>
+</xml>
+2016-01-05 14:47:55.315 INFO ASP.member_nativepaypage_aspx: page load
+2016-01-05 14:48:22.950 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2016-01-05 14:48:28.883 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[空气净化器x]]></body><goods_tag><![CDATA[20]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[3b0cd599a6ee4d808500dbbd0437672b]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[1240649402201601051448243]]></out_trade_no><product_id><![CDATA[15122309521849]]></product_id><sign><![CDATA[62E98A2AB0C8B5969EDB693A35B15B98]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20160105145826]]></time_expire><time_start><![CDATA[20160105144825]]></time_start><total_fee><![CDATA[3000]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2016-01-05 14:48:29.420 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[RN443m1TlxeqQaDD]]></nonce_str>
+<sign><![CDATA[AB28687F03E2BDBBD23DAF583224EDD2]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[当前使用此业务的用户较多，请稍后再试。]]></err_code_des>
+</xml>
+2016-01-05 15:22:37.302 INFO ASP.member_nativepaypage_aspx: page load
+2016-01-05 15:22:37.303 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2016-01-05 15:22:37.309 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[空气净化器x]]></body><goods_tag><![CDATA[20]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[fe12d18f9901469ea35008332ecde44e]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220160105152237493]]></out_trade_no><product_id><![CDATA[15122309521849]]></product_id><sign><![CDATA[C71B635877FA0BC8DEB0EC924B229D90]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20160105153237]]></time_expire><time_start><![CDATA[20160105152237]]></time_start><total_fee><![CDATA[3000]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2016-01-05 15:22:37.815 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[D24FI5tx8acHGzoc]]></nonce_str>
+<sign><![CDATA[2A42BE2BD4822D8363772B0895C55368]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201601051522297dd188db5f0502069983]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=IH8dka1]]></code_url>
+</xml>
+2016-01-05 15:22:37.817 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=IH8dka1
+2016-01-05 15:24:05.683 INFO ASP.member_nativepaypage_aspx: page load
+2016-01-05 15:24:05.685 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2016-01-05 15:24:05.690 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[空气净化器x]]></body><goods_tag><![CDATA[20]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[53612e29a9b44388b4de3087fa7427a8]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220160105152405190]]></out_trade_no><product_id><![CDATA[15122309521849]]></product_id><sign><![CDATA[270808E1A2BB96B12AE9FE1043AC7A9D]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20160105153405]]></time_expire><time_start><![CDATA[20160105152405]]></time_start><total_fee><![CDATA[3000]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2016-01-05 15:24:06.199 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[hraRPwSTq4YL3eSG]]></nonce_str>
+<sign><![CDATA[D95ED1271505774889E41E2F724F2F20]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201601051523576a4337f3720594412981]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=PruhFN4]]></code_url>
+</xml>
+2016-01-05 15:24:06.208 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=PruhFN4
+2016-01-05 15:25:43.403 INFO ASP.member_nativepaypage_aspx: page load
+2016-01-05 15:25:43.405 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2016-01-05 15:25:43.410 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[空气净化器x,测试2]]></body><goods_tag><![CDATA[2019]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[5229dd9ffb0f43e5a7de6a4f73cbf626]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[12406494022016010515254369]]></out_trade_no><product_id><![CDATA[15122309521850]]></product_id><sign><![CDATA[0FBE13E74D389DFA6690A5EC01C526DC]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20160105153543]]></time_expire><time_start><![CDATA[20160105152543]]></time_start><total_fee><![CDATA[3001]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2016-01-05 15:25:43.878 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[GMojnb3otZLpmSma]]></nonce_str>
+<sign><![CDATA[7C511ADC58528D4323BBB018B031A7DC]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20160105152535e70dbdcaf40127442891]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=13LShQc]]></code_url>
+</xml>
+2016-01-05 15:25:43.885 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=13LShQc

@@ -1,0 +1,16 @@
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Release\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Release\NH.DAL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Release\Maticsoft.DBUtility.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Release\NH.Model.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Release\NH.Model.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\obj\Release\NH.DAL.csprojResolveAssemblyReference.cache
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\obj\Release\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\obj\Release\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Release\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Release\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Release\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Release\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Release\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\obj\Release\NH.DAL.csprojResolveAssemblyReference.cache
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\obj\Release\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\obj\Release\NH.DAL.pdb

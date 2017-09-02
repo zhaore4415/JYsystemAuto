@@ -1,0 +1,35 @@
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\obj\Release\NH.BLL.csprojResolveAssemblyReference.cache
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\NH.BLL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\NH.BLL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\Maticsoft.Common.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\Maticsoft.DBUtility.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\NH.Model.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\ZRLabs.Yael.BasicFilters.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\ImageManipulation.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\OpenSmtp.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\Excel.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\COM.Excel.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\PublicLibrary.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\ZRLabs.Yael.Common.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\NH.DAL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\bin\Release\NH.Model.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\obj\Release\NH.BLL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.BLL\obj\Release\NH.BLL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\NH.BLL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\NH.BLL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\Maticsoft.Common.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\COM.Excel.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\ZRLabs.Yael.BasicFilters.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\OpenSmtp.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\PublicLibrary.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\ImageManipulation.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\ZRLabs.Yael.Common.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\bin\Release\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\obj\Release\NH.BLL.csprojResolveAssemblyReference.cache
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\obj\Release\NH.BLL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.BLL\obj\Release\NH.BLL.pdb

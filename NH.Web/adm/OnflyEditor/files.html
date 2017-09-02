@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>	DevinFrame.Uploder.Upload | Powered by Devin!NT QQ:644976 | MSN: onpay@msn.com | http://www.5z.hk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content=".NET 2.0 Structure, more secure, more efficient,W3C WebSite Structure,to be Beautiful and faster,SEO Optimization, allow more people to see you" />
+    <meta name="Author" content="Devin [onpay@msn.com] | QQ:644976" />
+    <meta name="Copyright" content="XunYuan SoftWare | QQ:644976 | http://www.5z.hk" />
+    <meta name="Generator" content="Devin!NT asp.net 2.0 ,Microsoft SQL Server 2000" />
+    <meta name="keywords" content="asp.net 2.0 ,Microsoft SQL Server 2000,W3C WebSite Structure" />
+    <style type="text/css">
+    <!--
+    body{margin:0px;padding:0px;margin:auto;text-align:left;font:normal 12px Tahoma;background:#fff8ee;}
+    #fileUpload{height:20px;border:1px solid #ccc;margin:0;}
+    //-->
+    </style>
+</head>
+<body>
+<form id="frmUpload" method="post" enctype="multipart/form-data" action="upload.aspx">
+    <input id="fileload" name="fileload" type="file" onchange="CheckUpload(this);" />
+</form>
+    <script type="text/javascript">
+    <!--
+        var a = parent.document.getElementById("UploadControl");
+        var b = parent.document.getElementById("UploadIng");
+        var CheckUpload = function(v) {
+            var c = document.getElementById("frmUpload");
+            if (/^.+.(gif|jpg|jpeg|png)$/i.test(v.value)) {
+                a.style.display = "none";
+                b.style.display = "block";
+               c.submit()
+            } else {
+                alert('错误!文件格式权限于：gif | jpg | jpeg ,请重新选择！');
+            }
+        };
+        //-->
+    </script>
+</body>
+</html>

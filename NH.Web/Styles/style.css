@@ -1,0 +1,704 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*  公共样式  */
+*{margin:0 auto; outline:none}
+html{overflow-x:hidden}
+body{margin:0; padding:0; color:#2b2b2b; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,input{margin:0; padding:0; list-style:none}
+.fontMic{font-family:"微软雅黑"}
+.fontSongti{font-family:"宋体"}
+input{font-family:Arial, Helvetica, sans-serif}
+img{border:0}
+a{color:#2b2b2b; text-decoration:none}
+a:hover{color:#ff6600; text-decoration:none}
+.clear{clear:both}
+
+.font14{font-size:14px}.font15{font-size:15px}.font16{font-size:16px}.font18{font-size:18px}.font24{font-size:24px}.font30{font-size:30px}
+
+.fLight{font-weight:lighter}.fBold{font-weight:bold}
+
+.lh18{line-height:18px}.lh20{line-height:20px}.lh22{line-height:22px}.lh24{line-height:24px}.lh30{line-height:30px}.lh36{line-height:36px}
+
+.mT10{margin-top:10px}.mT15{margin-top:15px}.mT20{margin-top:20px}.mT25{margin-top:25px}.mT30{margin-top:30px}.mT35{margin-top:35px}
+.mL10{margin-left:10px}.mL15{margin-left:15px}.mL40{margin-left:40px}
+.mR10{margin-right:10px}.mR15{margin-right:15px}
+
+.pT5{padding-top:5px}.pT10{padding-top:10px}.pT15{padding-top:15px}.pT20{padding-top:20px}.pT25{padding-top:25px}.pT30{padding-top:30px}.pT35{padding-top:35px}.pT45{padding-top:45px}
+.pL5{padding-left:5px}.pL10{padding-left:10px}.pL15{padding-left:15px}.pL20{padding-left:20px}.pL25{padding-left:25px}.pL30{padding-left:30px}.pL35{padding-left:35px}.pL42{padding-left:42px}
+.pR5{padding-right:5px}.pR10{padding-right:10px}.pR15{padding-right:15px}.pR20{padding-right:20px}.pR25{padding-right:25px}.pR30{padding-right:30px}.pR35{padding-right:35px}
+.pB5{padding-bottom:5px}.pB10{padding-bottom:10px}.pB15{padding-bottom:15px}.pB20{padding-bottom:20px}.pB25{padding-bottom:25px}
+
+.bL{border-left:1px #ccc solid}.bR{border-right:1px #ccc solid}.bT{border-top:1px #ccc solid}.bB{border-bottom:1px #ccc solid}
+
+.fl{float:left}.fr{float:right}
+
+/*  调用 背景图片 样式  */
+	/*  iconA.gif  */
+	.mainHeader, .mainTopInto, .mainTopInto a:hover, ul.groupPage li a.a1, ul.groupPage li a.a2, ul.groupPage li a.a3, ul.groupPage li a.a4, .tempTopRight a, .searchBar, div.cge_2 ol li a:hover, div.cge_2 ol li a.active, .companyPicSmall span, ul.submitA a, .signUpCo a, .resume a, .coTitle, p.articleMore a, input.textAbutton, .registrationTitle, .textB, .textC, a.aC, .memberAheader, .bt1 a, .btnBlue{background:url(../images/iconA.gif)}
+	/*  iconB.gif  */
+	.input{height:26px; line-height:26px; padding:0 8px; border:1px #ccc solid; cursor:pointer; background:url(../images/iconB.gif) no-repeat right}
+	/*  onlineRegistration.png  */
+	.baomin, .baomin a:hover{background:url(../images/onlineRegistration.png)}
+	/*  icon.gif  */
+	.fa, h2.dachangMore a, h2.consultingTitle, ul.statisticsA li, ul.project li.current, .companyInfoTime, .companyInfoImg, ul.articleCoList li, .loginCoRightA, .qqLogin, .proposalIcon, .pB span{background:url(../images/icon.gif) no-repeat}
+	/*  iconNav.gif  */
+	.bt input, .bt input:hover, dl.mis dd span, .li_g{background-image:url(../images/iconNav.gif); background-repeat:no-repeat}
+	/*  bg1.gif  */
+	ul.mainFamousList li div.time, ul.mainFamousList li.expired div.time, ul.latestJobsList li{background:url(../images/bg1.gif) repeat-x}
+	/*  timeBackground.gif  */
+	.consultingRight{width:339px; height:228px; color:#fff; background:url(../images/timeBackground.gif); position:relative}
+	/*  iconNav.gif  */
+	.navDefaultList, .navDefaultList a.navA:hover, .navDefaultList a.navB:hover, .navDefaultList a.navC:hover, .navDefaultList a.navD:hover, .navDefaultList a.navE:hover, .navDefaultList a.navF:hover, .navDefaultList a.navG:hover, .navDefaultList a.navH:hover, ul.loginDefaultList a.logoinDefaultA, ul.loginDefaultList a.logoinDefaultA:hover, ul.loginDefaultList a.logoinDefaultB, ul.loginDefaultList a.logoinDefaultB:hover, ul.authenticateList li{background-image:url(../images/iconNav.gif); background-repeat:no-repeat}
+	/*  articlebg.jpg  */
+	.articleBg{background:url(../images/articlebg.jpg) no-repeat center top}
+	.memberCenter{background-image:url(../images/memberLeft.gif)}
+
+/*  主体页面公共样式  */
+.mainHeader{height:90px; background-repeat:repeat-x}
+.mainTop{width:1030px; overflow:hidden; _height:1%}
+.mainLogo{width:420px}
+.mainLogo img{width:416px; height:77px}
+.mainTopPhone{width:455px; padding-top:35px; color:#fff; font-size:15px; text-align:right}
+.mainTopPhone span{font-size:18px}
+.mainTopInto{width:130px; height:44px; margin-top:26px; text-indent:-9999px; background-position:0 -90px; background-repeat:no-repeat}
+.mainTopInto a{display:block; height:44px}
+.mainTopInto a:hover{background-position:-130px -90px; background-repeat:no-repeat}
+
+/*  主页大图广告  */
+.banner{width:1030px; height:467px; background:#fff; position:relative}
+.bannerImg{width:1030px; height:407px; overflow:hidden; position:relative; z-index:1}
+.bannerImg img{width:1030px; height:407px}
+.bannerImgCo{width:1030px; height:407px; position:relative; z-index:2}
+.baomin{width:189px; height:67px; text-indent:-9999px; background-position:0 0; position:absolute; right:20px; bottom:20px; z-index:3}
+.baomin a{display:block; height:67px}
+.baomin a:hover{background-position:0 -70px}
+
+/*  主页搜索  */
+.mainSearch{height:30px; padding:15px 10px; position:relative}
+.fa{width:56px; height:25px; margin-top:6px; background-position:20px -9px}
+.fa a{color:#0076c3}
+.key{width:245px; background:none}
+.key input{width:245px; padding-top:6px; background:#fff; color:#999; border:0; *margin-left:-8px}
+.keyMember{width:135px}
+.keyMember input{width:135px}
+.bt{width:82px; height:30px}
+.bt input{width:82px; height:28px; border:0; cursor:pointer; color:#fff; padding-left:20px; font-weight:bold; background-color:#f5823c; background-position:10px -816px}
+.bt input:hover{background-color:#f5a43c; background-position:10px -847px}
+.uta{width:184px}
+.utb{width:101px}
+.utc{width:101px}
+.utd{width:101px}
+.ute{width:240px}
+.utf{width:150px}
+
+/*  名企就业直通车  */
+.mainFamous{width:1030px; background:#f3f3f3; overflow:hidden; _height:1%}
+.mainFamousLeft{width:820px}
+.mainFamousRight{width:190px}
+.mainFamousLeftTitle{height:28px}
+ul.groupPage{}
+ul.groupPage li{width:21px; height:20px; margin-left:5px; text-indent:-9999px; float:left}
+ul.groupPage li a{display:block; height:20px; background:url(../images/iconA.gif)}
+ul.groupPage li .back a{background-position:-262px -91px}
+ul.groupPage li .back a:hover{background-position:-262px -112px}
+ul.groupPage li .forward a{background-position:-284px -91px}
+ul.groupPage li .forward a:hover{background-position:-284px -112px}
+
+ul.groupPage li a.a1{background-position:-262px -91px}
+ul.groupPage li a.a1:hover{background-position:-262px -112px}
+ul.groupPage li a.a2{background-position:-284px -91px}
+ul.groupPage li a.a2:hover{background-position:-284px -112px}
+	/*  最新招聘职位箭头  */
+	ul.groupPage li a.a3{background-position:-306px -91px}
+	ul.groupPage li a.a3:hover{background-position:-306px -112px}
+	ul.groupPage li a.a4{background-position:-328px -91px}
+	ul.groupPage li a.a4:hover{background-position:-328px -112px}
+
+ul.mainFamousList{ height:657px;}
+ul.mainFamousList li{display:block; width:163px; height:657px; border:1px #d7d7d7 solid; border-left:none; background:#fff;}
+ul.mainFamousList li:hover{background:#fff3e7}
+ul.mainFamousList li.expired{background:#ebebeb}
+ul.mainFamousList li.expired:hover{background:#fff3e7}
+ul.mainFamousList li.ing{background:#fadbbf}
+ul.mainFamousList li.ing:hover{background:#fff3e7}
+ul.mainFamousList li div.time{height:50px; padding-top:5px; line-height:24px; text-align:center; color:#f84314; font-size:16px; background-position:0 -55px}
+ul.mainFamousList li div.time p{color:#000; font-size:14px}
+ul.mainFamousList li.expired div.time{height:50px; padding-top:5px; line-height:24px; text-align:center; color:#f84314; font-size:16px; background-position:0 0}
+ul.mainFamousList li.expired div.time p{color:#000; font-size:14px}
+ul.mainFamousList li.ing div.time{height:50px; padding-top:5px; line-height:24px; text-align:center; color:#fff; font-size:16px; background:#ff8d1d}
+ul.mainFamousList li.ing div.time p{color:#fff; font-size:14px}
+ul.mainFamousList li div.comanyInfo{width:128px; line-height:20px; padding-bottom:10px}
+ul.mainFamousList li div.comanyInfo p.img{width:126px; height:38px; border:1px #ccc solid; margin-bottom:5px}
+ul.mainFamousList li div.comanyInfo p.img:hover{border:1px #ff6600 solid}
+ul.mainFamousList li div.comanyInfo p b{color:#e60016}
+	/*  最新招聘职位列表  */
+	.latestJobs{background:#fff}
+	ul.latestJobsList{width:157px; padding-bottom:11px; margin:0 auto}
+	ul.latestJobsList li{display:block; width:135px; height:63px; padding:6px 10px; margin-top:15px; border:1px #e7e7e7 solid; line-height:20px; background-position:0 -110px}
+	ul.latestJobsList li span{color:#e60016}
+	ul.latestJobsList li font{color:#888; font-size:12px}
+
+
+.mainTemp{width:1030px; background:#f3f3f3; overflow:hidden; _height:1%}
+
+/*  服务  */
+.mainSeCo{background:#fff}
+ul.mainSeList{overflow:hidden; _height:1%}
+ul.mainSeList li{display:block; width:190px; height:181px; text-align:center; padding:15px 0 0 13px; float:left}
+
+/*  地区  */
+.area{width:586px; background:#fff}
+.area h3{color:#f5823c; font-size:12px; line-height:24px; padding:10px 0 5px 10px}
+.area h3 a{color:#f5823c}
+.area h3 a:hover{color:#f60}
+.hotAddArea{padding:10px; background:#fff3e8; line-height:20px}
+.hotAddArea a{margin-right:10px}
+.pinyin{padding:10px; overflow:hidden; _height:1%}
+.pinyinTitle{color:#0078d8; width:65px; line-height:22px}
+ul.pinyinCo{width:500px; overflow:hidden; _height:1%}
+ul.pinyinCo li{display:block; width:22px; height:22px; padding:0 10px 10px 0; text-align:center; text-transform:uppercase; float:left}
+ul.pinyinCo li a{display:block; width:20px; height:20px; line-height:20px; background:#f7f7f7; border:1px #ccc solid}
+ul.pinyinCo li a:hover{background:#1369c0; color:#fff; border:1px #2b2b2b solid}
+.jobCate{padding:5px 10px; line-height:24px}
+.jobCate a{margin-right:12px; color:#397bb8}
+.jobCate a:hover{color:#ff6600}
+/*  大厂招聘  */
+.dachangJobs{width:422px; background:#fff}
+h2.dachangMore{padding:10px 0 8px 10px}
+h2.dachangMore a{display:block; font-size:12px; font-weight:lighter; float:right; width:44px; background-position:28px 4px}
+ul.dachangList{padding-bottom:5px; overflow:hidden; _height:1%}
+ul.dachangList li{width:402px; overflow:hidden; height:26px; padding:0 10px; line-height:26px; float:left}
+ul.dachangList a, ul.dachangList span{display:block; float:left}
+ul.dachangList a{width:220px; color:#397bb8}
+ul.dachangList a:hover{color:#ff6600}
+ul.dachangList span{}
+ul.dachangList em{color:#e60016; float:right; font-style:normal}
+
+/*  最新加入会员  */
+.latestMember{height:124px; background:#fff; overflow:hidden}
+h4.latestMembwrTitle{width:28px; height:109px}
+dl.memberList{width:62px; height:100px; font-size:12px; margin:18px 0 0 19px}
+dl.memberList img{width:48px; height:48px; border:1px #fff solid}
+dl.memberList img:hover{border:1px #ff6600 solid}
+dl.memberList p.name{display:block; padding-top:5px}
+dl.memberList p.addUs{padding-top:6px}
+
+/*  首页广告图  */
+.ad95{width:1030px; height:95px; overflow:hidden}
+
+/*  鑫咨询  */
+.consulting{height:228px; background:#fff; overflow:hidden}
+.consultingLeft{width:645px}
+h2.consultingTitle{height:35px; margin:8px 0 0 1px; line-height:35px; color:#fff; background-position:0 -57px}
+ul.consultingList{padding-top:10px}
+ul.consultingList li{padding:10px; line-height:20px}
+dt.consultingTitleCo{color:#139dca}
+	/*  右侧时间  */
+	.consultingRighta{position:absolute; left:85px; top:46px}
+	.consultingRightb{position:absolute; left:85px; top:74px}
+	.consultingRightc{position:absolute; left:205px; top:69px}
+	.consultingRightd{position:absolute; left:85px; top:158px}
+	.consultingRighte{position:absolute; left:85px; top:186px}
+	.consultingRightf{position:absolute; left:205px; top:181px}
+
+/*  首页接站  */
+.pick{background:#fff}
+.pickList, .enterprise{overflow:hidden; _height:1%}
+.pickList li{width:190px; padding:13px 0 10px 13px; float:left}
+.pickList img{width:190px; height:141px}
+.pickList span{display:block; text-align:center; padding-top:6px}
+
+
+/*  网站底部  */
+.footerDefault{width:1030px; background:#fff}
+.cooper{}
+.cooper h3{font-size:12px}
+ul.cooperList{overflow:hidden; _height:1%}
+ul.cooperList li{width:98px; height:32px; padding:10px 15px 0 0; float:left}
+ul.cooperList img{width:96px; height:30px; border:1px #ccc solid}
+ul.cooperList img:hover{border:1px #ff6600 solid}
+	/*  友情链接  */
+	.friendLink{}
+	.friendLink h4{font-size:12px}
+	.friendLink h4 span{color:#a4a4a4}
+	.friendLinkCo{line-height:20px}
+	.friendLinkCo a{margin-right:12px; color:#a4a4a4}
+	.friendLinkCo a:hover{color:#ff6600}
+	
+	/*  版权  */
+	.copyright{line-height:28px; text-align:center}
+	.copyright p.functionLink{}
+	.copyright p.functionLink a{margin:0 10px; color:#505050}
+	.copyright p.functionLink a:hover{color:#ff6600}
+
+/*  主页导航  */
+.navDefault{width:155px; position:absolute; left:-155px; top:0}
+.navDefaultFixed{ position:fixed; top:0px; left:0; z-index:100;}
+.navDefaultList{height:318px; width:155px; color:#fff; background-color:#4593fd; background-position:20px 10px}
+.navDefaultList a{color:#fff; display:block; height:38px}
+.navDefaultList a:hover{background-color:#0078d8}
+.navDefaultList li{display:block; height:38px; line-height:38px; border-bottom:1px #3584ec solid; border-top:1px #5aa1fe solid}
+.navDefaultList li.home{border-top:0}
+.navDefaultList a.navA:hover{background-position:20px -328px}
+.navDefaultList a.navB:hover{background-position:20px -368px}
+.navDefaultList a.navC:hover{background-position:20px -408px}
+.navDefaultList a.navD:hover{background-position:20px -448px}
+.navDefaultList a.navE:hover{background-position:20px -488px}
+.navDefaultList a.navF:hover{background-position:20px -528px}
+.navDefaultList a.navG:hover{background-position:20px -568px}
+.navDefaultList a.navH:hover{background-position:20px -608px}
+	/*  登录 注册  */
+	.logoinDefault{background:#f5823c; padding:10px}
+	ul.loginDefaultList{padding-bottom:28px}
+	ul.loginDefaultList li{height:30px; line-height:30px; margin-top:10px}
+	ul.loginDefaultList a{color:#f5823c; display:block; height:30px; background-color:#fff}
+	ul.loginDefaultList a:hover{color:#fff; background-color:#1369c0}
+	ul.loginDefaultList a.logoinDefaultA{background-position:10px -656px}
+	ul.loginDefaultList a.logoinDefaultA:hover{background-position:10px -736px}
+	ul.loginDefaultList a.logoinDefaultB{background-position:10px -696px}
+	ul.loginDefaultList a.logoinDefaultB:hover{background-position:10px -776px}
+
+/*  主页右侧  */
+.serviceDefaultRight{width:155px; position:absolute; right:-155px; top:0}
+.serviceDefaultRightFixed{ position:fixed; right:0; z-index:100;}
+.serviceDefaultRightCo{background:#4593fd}
+h5.rightTitle{height:38px; line-height:38px; text-align:center; color:#fff}
+ul.serviceList{background:#f5823c; padding:20px 40px 30px; color:#fff}
+ul.serviceList li{padding-bottom:15px}
+ul.serviceList li span{display:block; padding-bottom:6px}
+.code{padding:20px 20px 50px; text-align:center}
+.code p.codeText{padding-top:5px; color:#fff}
+
+
+
+
+/*  内页公共样式  */
+
+.tempTopRight{height:32px; line-height:30px; text-align:right; color:#ffffff;}
+.tempTopRight a{color:#ffffff;}
+.tempTopRight a.btnlink{display:inline-block; height:30px; border:1px #0a55a1 solid; color:#fff; background-position:0 -134px; background-repeat:repeat-x}
+.tempTopRight a.btnlink:hover{background-position:0 -164px}
+/*  内页导航  */
+.navCo{height:40px; background:#1d7ad9}
+ul.nav{width:1030px; height:40px; overflow:hidden; margin:0 auto}
+ul.nav li{display:inline-block; border-right:1px #1265ba solid; height:40px; float:left}
+ul.nav li.bnone{border-right:0}
+ul.nav a{display:block; height:40px; line-height:40px; color:#fff; border:1px #3089e4 solid; border-top:0; border-bottom:0; float:left}
+ul.nav a:hover{background:#1063b7; border:1px #1063b7 solid; border-top:0; border-bottom:0}
+ul.nav a.bnoneL, ul.nav a.bnoneL:hover{border-left:0}
+ul.nav a.bnoneR, ul.nav a.bnoneR:hover{border-right:0}
+/*  搜索  */
+.search{width:1010px; height:32px; background:#fff}
+.searchMember{width:810px}
+.searchBar{width:1030px; height:8px; line-height:8px; font-size:0; background-position:0 -194px; background-repeat:repeat-x}
+/*  面包屑  */
+.location{width:1020px; height:30px; line-height:30px}
+.location a{color:#6a6a6a}
+.location a:hover{color:#ff6600}
+/*  主体内容  */
+.main{width:1030px; overflow:hidden; _height:1%}
+	/*  左侧  */
+	.leftSide{width:798px}
+	.searchCo{width:776px; padding:10px; border:1px #d1d1d1 solid; background:#fff}
+	ul.cge li{position:relative; border-bottom:1px #f2f2f2 solid}
+	/*div.cge_1{width:64px; line-height:40px; position:absolute; left:0; top:0}
+	div.cge_2{position:absolute; left:70px; top:0}*/
+	div.cge_1{width:64px; line-height:40px; float:left;}
+	div.cge_2{ float:right; width:710px;}
+	div.cge_2 ol li{float:left; display:inline-block; height:22px; line-height:22px; border:none; margin:7px 8px 5px 0px; text-align:center}
+	div.cge_2 ol li a{display:block; height:20px; padding:0 10px; border:1px #fff solid; float:left}
+	div.cge_2 ol li a:hover, div.cge_2 ol li a.active{background-position:0 -202px; height:20px; border:1px #d26400 solid; color:#fff}
+	/*  职位  */
+	.tempBo{width:796px; border:1px #d1d1d1 solid; background:#fff; overflow:hidden; _height:1%}
+	ul.u_a{display:block; height:35px; line-height:35px; border-bottom:1px #ddd solid; background:url(../images/bg1.gif) 0 -55px}
+	ul.u_a li{float:left; display:block; text-align:center; font-weight:bold; color:#000}
+	ul.u_a li.li_1{width:270px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_2{width:288px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_3{width:143px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_4{width:92px; height:35px}
+	
+	ul.u_a li.li_5{width:185px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_6{width:140px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_7{width:130px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_8{width:130px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_9{width:115px; height:35px; border-right:1px #ddd solid}
+	ul.u_a li.li_10{width:91px; height:35px}
+	
+	ul.u_b{display:block; padding-top:12px}
+	ul.u_b li{display:block; width:776px; height:38px; line-height:38px; border-bottom:1px #e7e7e7 solid; position:relative; margin:0 auto}
+	ul.u_b li:hover{background:#f7f7f7}
+	.li_a{width:110px; position:absolute; left:6px; top:0; font-family:宋体}
+	.li_b{width:20px; height:20px; position:absolute; left:280px; top:10px}
+	.li_b img{width:20px; height:20px}
+	.li_c{width:140px; position:absolute; left:115px; top:0; font-weight:bold}
+	.li_c a{color:#1d7ad9}
+	.li_c a:hover{color:#ff6600}
+	.li_d{width:230px; position:absolute; left:308px}
+	.li_d a{color:#1d7ad9}
+	.li_d a:hover{color:#ff6600}
+	.li_e{width:124px; position:absolute; left:562px; text-align:center}
+	.li_f{width:82px; position:absolute; left:700px; text-align:center; color:#9d9d9d}
+	
+	.li_g{width:12px; height:16px; position:absolute; left:6px; top:13px; text-indent:-9999px; background-position:0 -1166px}
+	.li_h{width:170px; position:absolute; left:25px; top:0}
+	.li_h a{color:#1d7ad9}
+	.li_h a:hover{color:#ff6600}
+	.li_i{width:125px; position:absolute; left:185px; top:0}
+	.li_j{width:125px; position:absolute; left:320px; top:0}
+	.li_k{width:125px; position:absolute; left:450px; top:0}
+	.li_l{width:114px; position:absolute; left:580px; top:0; text-align:center}
+	.pg{padding:20px; height:30px}
+	
+	/*  职位详细  */
+	.tempBo786{width:786px}
+		/*  企业基础信息  */
+		.divOverflow{overflow:hidden; _height:1%}
+		/*  左侧图片  */
+		.companyPic{width:394px; background:#fff3e8}
+		.companyPicBig{width:324px; height:216px; padding:10px 0}
+		.companyPicBig img{width:324px; height:216px;}
+		.companyPicSmall{width:394px; height:50px; position:relative}
+		.companyPicSmall span{display:block; width:22px; height:22px; text-indent:-9999px; position:absolute; top:15px; cursor:pointer}
+		span.companyPicSmallIcoA{left:5px; background-position:-349px -90px}
+		span.companyPicSmallIcoA:hover{background-position:-349px -112px}
+		span.companyPicSmallIcoB{right:5px; background-position:-371px -90px}
+		span.companyPicSmallIcoB:hover{background-position:-371px -112px}
+		ul.companyPicSmallList{width:332px; overflow:hidden; position:absolute; top:0; left:35px}
+		ul.companyPicSmallList li{display:inline-block; height:54px; padding-right:10px; float:left}
+		ul.companyPicSmallList img{width:69px; height:50px; border:2px #fff3e8 solid}
+		ul.companyPicSmallList img:hover{border:2px #ff6600 solid}
+		ul.companyPicSmallList img.active{border:2px #ff6600 solid}
+		/*  右侧内容  */
+		.postSummary{width:375px}
+		.postSummary h2{color:#1d7ad9}
+		.postSummary h6{color:#ff6600}
+		ul.statisticsA{height:18px}
+		ul.statisticsA span{color:#ff6600}
+		ul.statisticsA li{display:inline-block; height:17px; line-height:17px; float:left}
+		ul.statisticsA li.a1{background-position:0 -140px}
+		ul.statisticsA li.a2{background-position:0 -167px}
+		ul.statisticsA li.a3{background-position:0 -194px}
+		ul.pickTime{height:20px}
+		ul.pickTime li{display:inline-block; height:20px; line-height:20px; line-height:20px; float:left}
+		ul.pickTime span{display:block; height:18px; font-size:12px; border:1px #de500a solid; color:#fff; background:#ff9c2a}
+		ul.submitA{overflow:hidden; _height:1%}
+		ul.submitA li{display:inline-block; line-height:37px; float:left}
+		ul.submitA a{display:block; height:35px; color:#fff; float:left}
+		ul.submitA a.bm{border:1px #e17c0a solid; background-position:0 -223px}
+		ul.submitA a.bm:hover{background-position:0 -259px}
+		ul.submitA a.sq{border:1px #064e96 solid; background-position:0 -295px}
+		ul.submitA a.sq:hover{background-position:0 -331px}
+		
+		
+		.btnBlue{border:1px #064e96 solid; background-position:0 -295px;height:35px; color:#fff; padding:0 20px; cursor:pointer;}
+		.btnBlue:hover{background-position:0 -331px}
+		
+		.btnAsk{}
+		
+		/*  在线报名  */
+		.signUp{}
+		.signUpCo{height:50px}
+		.signUpCo a{display:block; border:1px #e17c0a solid; height:50px; color:#fff; text-align:center; line-height:50px; background-position:0 -367px}
+		.signUpCo a:hover{background-position:0 -418px}
+		/*  右侧企业资料  */
+		.companyInfo{}
+		.companyInfoTime{height:36px; line-height:36px; background-position:10px -265px}
+		.companyInfoImg{background-position:36px -312px; height:166px;}
+		.companyInfoImgCo{width:112px}
+		.companyInfoImgCo img{width:112px; height:112px}
+		h5.companyInfoName{line-height:40px; text-align:center}
+		dl.mis{line-height:21px}
+		dl.mis dt{width:60px; float:left}
+		dl.mis dd{width:130px; overflow:hidden; _height:1%; float:left}
+		span.mis{width:20px; height:21px; display:block; text-indent:-9999px}
+		span.misB{background-position:0 -1135px}
+		/*  该企业还招聘  */
+		dl.jobOtherList{}
+		dl.jobOtherList a{color:#1d7ad9}
+		dl.jobOtherList a:hover{color:#ff6600}
+		dl.jobOtherList b{color:#e91111}
+		dl.jobOtherList dd{line-height:20px}
+		
+		/*  认证  */
+		.authenticate{background:#fff3e8; border:1px #ffa742 solid}
+		ul.authenticateList{height:30px}
+		ul.authenticateList li{display:inline-block; height:21px; line-height:21px; float:left}
+		ul.authenticateList li.a1, span.misA{background-position:0 -887px}
+		ul.authenticateList li.a2{background-position:0 -918px}
+		ul.authenticateList li.a3{background-position:0 -949px}
+		ul.authenticateList li.a4{background-position:0 -980px}
+		ul.authenticateList li.a5{background-position:0 -1011px}
+		ul.authenticateList li.a6{background-position:0 -1042px}
+		ul.authenticateList li.a7{background-position:0 -1073px}
+		ul.authenticateList li.a8{background-position:0 -1104px}
+		ul.authenticateList li.a0{ background:none;}
+		/*  提供项目  */
+		ul.project{background:#f3f3f3; height:35px; line-height:35px}
+		ul.project li{display:inline-block; border-left:1px #dfdfdf solid; padding:0 30px; cursor:pointer; float:left;}
+		ul.project li:hover{background-color:#cfdae5}
+		ul.project li.current{background-color:#1d7ad9; color:#fff; background-position:57px -222px}
+		.projectCo{width:752px; line-height:30px; overflow:hidden; display:none;}
+		.projectCoShow{ display:block;}
+		ul.enterprise li{width:232px; padding:15px; float:left}
+		ul.enterprise img{width:222px; height:165px; border:5px #eaeaea solid}
+		ul.enterprise span{display:block; text-align:center; padding-top:6px}
+
+	/*  简历详细介绍  */
+	.resume{background-color:#fff3e8; border-bottom:1px #d1d1d1 solid}
+	.resume a{display:block; height:30px; line-height:30px; color:#fff; border:1px #e17c0a solid; background-position:0 -134px; text-align:center;}
+	.resume a:hover{background-position:0 -164px}
+	
+	a.btnyellow{background:url(../images/iconA.gif); border-bottom:1px #d1d1d1 solid}
+	a.btnyellow{display:block; height:30px; line-height:30px; color:#fff; border:1px #e17c0a solid; background-position:0 -134px; text-align:center;}
+	a.btnyellow:hover{background-position:0 -164px}
+	
+	.resumeN{background:none; border:0; border-top:1px #e9e9e9 solid}
+	.modResume{}
+	ul.modResumeList{border-bottom:1px #e9e9e9 solid}
+	ul.modResumeList li{height:36px; line-height:36px; overflow:hidden; font-size:14px; float:left}
+	ul.modResumeList li.short{width:150px; text-align:right}
+	ul.modResumeList li.long{width:220px}
+	.modResumeTitle{height:36px}
+	.modResumeTitle h3{display:inline-block; height:30px; line-height:30px; color:#fff; background:#1d7ad9; float:left}
+	.modResumeCo{line-height:30px}
+	.be9e9e9{border-bottom:1px #e9e9e9 solid}
+	
+	
+	/*  右侧  */
+	.rightSide{width:212px; float:right}
+	.brd{width:210px; border:1px #d1d1d1 solid; background:#fff; position:relative}
+	.brd h3{font-size:12px; font-weight:bold; padding:6px; text-align:center; background:#eee}
+	.catejob{padding:0 12px 8px 12px}
+	.catejob h2{font-size:12px; padding:0 0 4px 0}
+	.catejoblist{line-height:20px; padding-bottom:10px}
+	.catejoblist a{margin-right:10px}
+	ul.catejobphoto{width:177px; margin:0 auto}
+	ul.catejobphoto li{width:177px; padding-bottom:15px}
+	ul.catejobphoto span{display:block}
+		/*  优秀人才推荐  */
+		dl.excellent{line-height:20px}
+		dl.excellent dt{width:58px; float:left}
+		dl.excellent img{width:58px}
+		dl.excellent dd{width:120px; line-height:18px; letter-spacing:-1px; float:right}
+		dl.excellent span{color:#e60016}
+		
+	/*  鑫咨询  */
+	.interviews{width:210px; border:1px #d1d1d1 solid; background:#fff; position:relative}
+	ul.interviewslist{padding:0 12px 12px 12px}
+	ul.interviewslist li{line-height:20px; padding:3px 0}
+
+
+/*  求职指导  */
+.articleBg{}
+.articleCo{width:270px; background:#f4f8fb; border:5px #fff solid; -moz-box-shadow:0 3px 0 #aa960a; box-shadow:0 3px 0 #aa960a}
+h2.coTitle{height:83px; line-height:83px; text-align:center; color:#fff; background-position:0 -469px}
+ul.articleCoList{}
+ul.articleCoList li{height:35px; line-height:35px; padding-left:18px; border-bottom:1px #dbe0e5 solid; background-position:5px -463px; overflow:hidden;}
+ul.articleCoList a{}
+p.articleMore{width:170px; text-align:center; margin:0 auto}
+p.articleMore a{display:block; height:40px; line-height:40px; color:#fff; border:1px #7bad0d solid; background-position:0 -553px}
+p.articleMore a:hover{border:1px #f48809 solid; background-position:0 -594px}
+	/*  求职指导详细  */
+	.curmbs{height:30px; line-height:30px}
+	.curmbs span{padding:0 10px}
+	.articleDetails{width:955px; background:#1d7ad9}
+	ul.articleDetailsLeft{width:170px; border-left:1px #1266bc solid; border-top:1px #1266bc solid; position:relative; z-index:2}
+	ul.articleDetailsLeft li{background:#1d7ad9; border-bottom:1px #1266bc solid}
+	ul.articleDetailsLeft li a{display:block; height:45px; line-height:45px; padding-left:20px; color:#fff; overflow:hidden}
+	ul.articleDetailsLeft li a:hover{background:#609edc}
+	ul.articleDetailsLeft li a.current{width:152px; background:#fff; color:#2b2b2b}
+	.articleDetailsCo{width:782px; border:1px #1266bc solid; min-height:500px; height:auto!important; height:500px; background:#fff; position:relative; z-index:1}
+	.articleDetailsCo h1{text-align:center; line-height:40px}
+	p.from{line-height:24px; text-align:center; border-bottom:1px #e8e8e8 solid; color:#afafaf}
+	p.from span{padding-left:15px}
+	.content{line-height:30px}
+	.content p_{padding-bottom:10px}
+	
+/*  专题  */	
+.zoneBg{width:100%; height:auto; padding-bottom:10px; background:url(../images/zone_b2.jpg) top center repeat-x #faf5cd}
+.zone_banner{width:100%; height:595px; margin:0 auto;}	
+.zone_f1{ width:1030px; height:293px; margin:0 auto; background:url(../images/zone_f1.jpg) top center no-repeat; overflow:hidden}
+.zone_f1_l{ width:646px; height:250px; padding:20px;font-family:"微软雅黑"; }
+.zone_f1_l strong{ line-height:70px; font-size:26px; color:#fe6d04 }
+.zone_f1_l p{ font-size:16px; line-height:24px;}
+.zone_f1_r{ width:325px; height:270px; padding:0px; }
+#marqueediv5{width:290px;height:185px; overflow:hidden; margin-top:70px;}
+#marqueediv5 ul{ margin:0; padding:0}
+#marqueediv5 ul li{ width:325px; height:30px; line-height:30px; float:left; list-style:none;  font-size:12px;}
+#marqueediv5 ul li a{color:#fff;}
+#marqueediv5 ul li a:hover{ text-decoration:underline; color:#f82332}
+.zone_f2{width:100%; height:480px; margin:0 auto; padding-top:40px;overflow:hidden; background:url(../images/zone_f2.jpg) center repeat-x}
+.zone_hb{ width:1030px; height:440px;}
+.zone_hb_l{ width:377px; height:440px;  }
+.zone_hb_r{ width:634px; height:440px; padding-top:64px; color:#fff; font-family:"微软雅黑"}
+.zone_hb_r strong{ font-size:20px; font-weight:normal; line-height:40px; margin-bottom:20px; display:block }
+.zone_hb_r p{ font-size:16px; line-height:26px; margin-left:10px; }
+.jieshao{ width:1030px; height:auto; margin:0 auto; margin-top:15px;}
+.jieshao_nr{ width:980px; height:auto; padding:30px 25px; background:url(../images/zone_ser2.jpg) center repeat-y}
+.jieshao_nr p{ font-size:12px; line-height:24px; text-indent:2em; color:#880f04}
+.liucheng{ width:1033px; height:280px; margin:0 auto; margin-top:10px; background:url(../images/zone_liucheng.jpg) center no-repeat}
+.liucheng a{ width:128px; height:43px; display:block; }
+
+/*  登录  */
+.loginHeader{height:84px}
+.b2{border-bottom:1px #e9e9e9 solid}
+.loginHeaderCo{width:1030px}
+.loginHeaderLogo{width:406px; height:84px}
+.loginHeaderLogo img{width:406px; height:84px}
+.loginHeaderRight{width:300px; line-height:84px; text-align:right}
+.loginHeaderRight span{padding:0 10px}
+.loginCoLeft{width:540px}
+.loginCoLeft img{width:540px; height:350px}
+.loginCoRight{width:476px}
+.loginCoRightA{width:157px; height:273px; position:relative; background-position:0 -502px}
+.loginCoRightA p{text-align:center; line-height:18px}
+.loginCoRightA p span{color:#f5823c}
+.dimensionalCode{width:116px; height:116px}
+.loginCoRightB{width:318px; height:271px; border:1px #d9d7d6 solid; border-left:0}
+p.loginText{line-height:24px; position:relative; height:24px}
+p.loginText span.colorf5823c{color:#f5823c}
+p.loginText span.colorf5823c a{color:#f5823c}
+input.textA{height:30px; line-height:30px; border:1px #bcbcbc solid; padding:0 4px}
+.w50{width:50px}
+.w245{width:245px}
+.w255{width:255px}
+.w260{width:260px}
+p.loginText span.checkbox{display:block; width:18px; height:24px; position:absolute; left:25px}
+p.loginText span.checkboxText{display:block; width:220px; line-height:12px; position:absolute; left:42px; *line-height:24px}
+input.textAbutton{border:1px #e17c0a solid; color:#fff; cursor:pointer; background-position:0 -134px}
+input.textAbutton:hover{background-position:0 -164px}
+.qqLogin, .freeRegistration{display:inline-block; height:24px; line-height:24px}
+.qqLogin{background-position:0 -800px}
+	/*  网站改进建议请点这里  */
+	.proposal{width:1030px; height:20px; line-height:20px}
+	.proposal p{display:inline-block}
+	.proposal a{color:#1369c0}
+	.proposal a.proposalIcon{display:block; height:20px; background-position:0 -837px}
+	.proposal a:hover{color:#ff6600}
+
+/*  注册  */
+.registrationTitle{height:37px; line-height:37px; color:#fff; background-position:0 -635px}
+.registrationCo{border:1px #e0e0e0 solid; border-top:0; background:#f5f5f5}
+.registrationCoLeft{width:712px; border-right:1px #e0e0e0 solid; background:#fff}
+.registrationCoLeft .pB10{ position:relative;}
+.registrationCoLeft p{font-size:14px}
+.registrationCoLeft p span{color:#e61111; padding-right:6px}
+.registrationCoLeft p.pA{width:100px; line-height:28px; text-align:right}
+.registrationCoLeft p.pB{width:575px; position:relative}
+.registrationCoLeft p.pB em{font-style:normal; font-size:12px; color:#999; display:block; padding-top:5px}
+.registrationCoLeft p.pB span{position:absolute; left:7px; top:7px; width:10px; height:14px; background-position:0 -875px}
+input.textB{height:25px; line-height:25px; border:1px #ababab solid; background-position:0 -673px}
+input.textC{height:30px; line-height:30px; color:#fff; cursor:pointer; border:1px #e17c0a solid; background-position:0 -134px}
+input.textC:hover{background-position:0 -164px}
+	/*  注册右侧  */
+	.registrationCoRight{width:280px; line-height:22px}
+	a.aC{display:block; width:258px; height:30px; line-height:30px; text-align:center; color:#fff; background-position:0 -134px}
+	a.aC:hover{background-position:0 -164px}
+	p.registrationTel{color:#5c8bbc}
+	p.registrationTel span{font-size:22px}
+
+
+/*  会员中心 */
+	/*  头部  */
+	.memberAheader{height:50px; line-height:50px; background-position:0 -699px}
+	.memberAheaderCo{width:1030px; height:50px; overflow:hidden}
+	ul.memberAheaderNav{padding-left:220px}
+	ul.memberAheaderNav li{display:inline-block; height:50px; float:left}
+	ul.memberAheaderNav li a{display:block; height:50px; color:#fff; border-right:1px #034f9b solid; border-left:1px #257fd9 solid; float:left}
+	ul.memberAheaderNav li a:hover{background:#034f9b; border-left:1px #034f9b solid}
+	ul.memberAheaderNav li a.first{border-left:0}
+	ul.memberAheaderNav li a.last{border-right:0}
+	.memberAheaderRight{width:390px; color:#a2caf2; text-align:right}
+	.memberAheaderRight span{padding:0 10px}
+	.memberAheaderRight a{color:#a2caf2}
+	.memberAheaderRight a:hover{color:#fff}
+	
+	/*  中间  */
+	.memberCenter{width:1030px; background-repeat:repeat-y}
+	.memberLeft{width:216px}
+	.memberLeftLogo{height:90px; margin-top:-50px}
+	.memberBase{width:202px; height:247px; background:#f5833d; text-align:center; color:#fff}
+	.a0{padding:0px 0px 0px 0px}
+	.memberName{width:111px; height:111px; border:6px #fff solid; -moz-box-shadow:0 5px 5px #222; box-shadow:0 5px 5px #222}
+	.memberName img{width:111px; height:112px}
+	.memberCo{width:202px}
+	.memberCo a{color:#fff}
+	.memberCo h3{height:32px; line-height:32px; border-left:5px #f5833d solid; color:#fff; background:#1369c0}
+	ul.memberCoList{line-height:24px}
+	ul.memberCoList a{display:block; height:24px}
+	ul.memberCoList a:hover{background:#1369c0}
+	.memberRight{width:810px}
+	.memberBox{border:1px #d9d9d9 solid}
+	.bgA{background:#f8f8f8}
+	.bgB{background:#fff9f0}
+	.status{line-height:24px; position:relative}
+	.status span.sA{color:#ff6600}
+	.status span.sB{}
+	.status span.sB a, .status span.sD a{color:#1369c0}
+	.status span.sB a:hover, .status span.sD a:hover{color:#ff6600}
+	.status span.sC{color:#ff6600}
+	.status span.sD{color:#1369c0}
+	.status p.bt1{position:absolute; right:5px; top:55px}
+	.status p.bt1 a{display:block; height:35px; line-height:35px; color:#fff; background-position:0 -295px}
+	.status p.bt1 a:hover{background-position:0 -331px}
+	ul.baseInfo{}
+	ul.baseInfo li{border-bottom:1px #e3e4e4 dashed; height:30px; line-height:30px}
+	span.more12{font-weight:lighter; font-size:12px}
+	ul.baseInfo li span{display:block; float:right}
+	ul.baseInfo li span.del{width:30px; height:30px; text-align:center; cursor:pointer}
+	ul.baseInfo li span.del:hover{color:#ff6600}
+	.memberCon{}
+	.memberConLeft{width:375px}
+	.baseTelCo{line-height:24px}
+	p.qqSpan span{display:block; float:left}
+	
+	/*.status p.bt2{position:absolute; right:0; top:55px}*/
+
+
+/*  内页底部  */
+.footer{border-top:1px #ccc solid; background:#fff}
+
+dl.mis dd span.icon-mobile{ width:21px; height:24px; background:url(../images/icon-mobile-verify.gif) no-repeat; display:inline-block; margin-right:2px; overflow:hidden;}
+dl.mis dd span.icon-mobile-grey{ width:21px; height:24px; background:url(../images/icon-mobile-verify.gif) 0 -27px no-repeat; display:inline-block; margin-right:2px; overflow:hidden;}
+dl.mis dd span.icon-vip{ width:31px; height:19px; background:url(../images/vip.jpg) no-repeat; display:inline-block; margin-right:2px; overflow:hidden;}
+dl.mis dd span.icon-vip-grey{ width:31px; height:19px; background:url(../images/vip-grey.gif) no-repeat; display:inline-block; margin-right:2px; overflow:hidden;}
+dl.mis dd span.icon-idcard{ width:29px; height:19px; background:url(../images/icon-idcard.gif) 0 -21px no-repeat; display:inline-block; margin-right:2px; overflow:hidden;}
+dl.mis dd span.icon-idcard-grey{ width:29px; height:19px; background:url(../images/icon-idcard.gif) no-repeat; display:inline-block; margin-right:2px; overflow:hidden;}
+.forgetpwd{margin-left:30px; padding:30px 20px; }
+.forgetpwd h3{font-size:14px; font-weight:bold}
+.forgetpwdstep { width:790px; margin-top:40px;}
+.forgetpwdstep .icons { position:relative; margin:0px 0px 0px 33px; height:24px;}
+.forgetpwdstep .icons li{ background:url(../images/findpwdicon.gif) no-repeat; height:24px; position:absolute; top:0; text-align:center; line-height:24px; font-family:@微软雅黑; font-size:18px; font-weight:bold;color:#fff;}
+.forgetpwdstep .icons .icon1{ width:24px; background-position:-5px -2px; }
+.forgetpwdstep .icons .icon2{ width:24px; background-position:-5px -44px;}
+.forgetpwdstep .icons .icon3{ width:203px; background-position:-5px -79px;}
+.forgetpwdstep .icons .icon4{ width:203px; background-position:-5px -106px;}
+.forgetpwdstep .icons .icon5{ width:24px; background-position:-6px -138px;}
+.forgetpwdstep .icons .s1_1{ left:10px;}
+.forgetpwdstep .icons .s1_2{ left:40px;}
+.forgetpwdstep .icons .s2_1{ left:250px;}
+.forgetpwdstep .icons .s2_2{ left:280px;}
+.forgetpwdstep .icons .s3_1{ left:490px;}
+.forgetpwdstep .icons .s3_2{ left:520px;}
+.forgetpwdstep .icons .s4_1{ left:730px;}
+
+.forgetpwdstep .text { position:relative; margin-top:12px;}
+.forgetpwdstep .text li { position:absolute; text-align:center; top:0px}
+.forgetpwdstep .text .color { color:#1577DC;}
+.forgetpwdstep .text .s1 { left:27px;}
+.forgetpwdstep .text .s2 { left:273px;}
+.forgetpwdstep .text .s3 { left:511px;}
+.forgetpwdstep .text .s4 { left:764px;}
+
+.forgetcontent{padding:20px;}
+.inputlist_pop{padding:8px 0}
+.inputlist_pop input{width:180px; height:16px; padding:5px 6px; border:1px #b7b7b7 solid; background:#fff url(../images/inputbg.gif) 0 0 no-repeat; font-family:Arial}
+.inputlist_pop_td{padding-left:96px}
+.inputlist_pop_bt{width:60px}
+.notices_pop{width:360px; height:28px; margin:0 auto; background:#fbecbf url(../images/pop-6.gif) 20px center no-repeat; border:#f1cf98 1px solid; padding-left:50px; line-height:28px; color:#8f581e}
+
+.table{}
+.table th{ font-weight:normal;}
+.table th,.table td{ padding:2px;}

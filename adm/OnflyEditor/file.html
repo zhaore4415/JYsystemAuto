@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>	DevinFrame.Uploder.Upload | Powered by Devin!NT QQ:644976 | MSN: onpay@msn.com | http://www.5z.hk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content=".NET 2.0 Structure, more secure, more efficient,W3C WebSite Structure,to be Beautiful and faster,SEO Optimization, allow more people to see you" />
+    <meta name="Author" content="Devin [onpay@msn.com] | QQ:644976" />
+    <meta name="Copyright" content="XunYuan SoftWare | QQ:644976 | http://www.5z.hk" />
+    <meta name="Generator" content="Devin!NT asp.net 2.0 ,Microsoft SQL Server 2000" />
+    <meta name="keywords" content="asp.net 2.0 ,Microsoft SQL Server 2000,W3C WebSite Structure" />
+    <style type="text/css">
+    <!--
+    body{margin:0px;padding:0px;margin:auto;text-align:left;font:normal 12px Tahoma;background:#fff8ee;}
+    #fileUpload{height:20px;border:1px solid #ccc;margin:0;}
+    //-->
+    </style>
+</head>
+<body>
+<div style="border:1px solid #FFCB99;margin:10px;height:108px;overflow:hidden">
+    <div style="color:#988D05;text-align:center;height:20px;margin:15px 0 0 0;">上传本地图片</div>
+    <div style="height:40px;overflow:hidden;padding-left:15px;" id="UploadControl">
+        <iframe src="files.html" frameborder="no" scrolling="no" style="height:40px;width:100%;overflow:hidden;"></iframe>
+    </div>
+    <div id="UploadIng" style="height:40px;overflow:hidden;padding-left:15px;background:url(images/loading.gif) no-repeat 50% 50%;display:none"></div>
+    <div style="color:#988D05;border-top:1px solid #FFCB99;text-align:center;height:20px;margin:0 0 15px 0;line-height:30px;background:#FFF8EE">图片类型 : <font color="red">jpg</font> | <font color="red">gif</font> | <font color="red">png</font> | <font color="red">bmp</font> 最佳文件大小 <font color="red">500K</font></div>
+</div>
+    <script type="text/javascript">
+    <!--
+        var a = document.getElementById("UploadControl");
+        var b = document.getElementById("UploadIng");
+        var CheckUpload = function(v) {
+            var c = document.getElementById("frmUpload");
+            if (/^.+.(gif|jpg|jpeg|png|bmp)$/i.test(v.value)) {
+                a.style.display = "none";
+                b.style.display = "block";
+               c.submit()
+            } else {
+                alert('错误!文件格式权限于：gif | jpg | jpeg ,请重新选择！');
+            }
+        };
+        var filesucceed = function(v) {
+            parent.editor.uploadImage(v);
+        }
+        var filerror = function() {
+            alert("上传失败");
+        }
+        //-->
+    </script>
+</body>
+</html>

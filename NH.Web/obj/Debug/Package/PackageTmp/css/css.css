@@ -1,0 +1,114 @@
+   .top
+        {
+            height: 80px;
+            width: 100%;
+            background-color: rgb(33,38,45);
+        }
+        .top img
+        {
+            float: left;
+            margin-top: 30px;
+            margin-left: 10px;
+            width: 13%;
+        }
+        .top a
+        {
+            font-size: 20px;
+            line-height: 80px;
+            color: #FFF;
+            float: right;
+        }
+        .top .a-3
+        {
+            margin-right: 10px;
+        }
+        .top .a-2
+        {
+            margin-left: 10px;
+            margin-right: 30px;
+        }
+        .span12 h2
+        {
+            font-weight: normal;
+            float: left;
+        }
+        .span12 .dingdan-1
+        {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+        .span12 .dingdan-2
+        {
+            font-size: 16px;
+        }
+        .jifenxinxi .table
+        {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .gradeX .td-2
+        {
+            text-align: left;
+        }
+          .gradeX .td-1
+        {
+            text-align: right;
+            width: 20%;
+        }
+        .table-striped th
+        {
+            font-size: 14px;
+        }
+        .span12 .searchbox
+        {
+            float: right;
+        }
+        .span12 .input-1
+        {
+            width: 180px;
+            height: 25px;
+            background-color: #FFF;
+            border: 1px solid #CCC;
+            border-right: none;
+            float: left;
+            text-indent: 5px;
+        }
+        .span12 .input-2
+        {
+            width: 25px;
+            height: 29px;
+            background-color: #FFF;
+            border: 1px solid #CCC;
+            border-left: none;
+            float: left;
+            background-image: url(../../images/fangdajing.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
+        .dingdanliebiao span
+        {
+            padding-bottom: 10px;
+            display: block;
+        }
+        .current
+        {
+            font-weight: bold;
+            color: #28b779;
+        }
+          .td-2 input[type="text"]
+        {
+            background-color: #FFF;
+            border: #666 solid 1px;
+            text-indent: 2px;
+        }
+        .td-2 button
+        {
+            background-color: #FFF;
+            border: #666 solid 1px;
+        }
+        .myform-star
+{
+	color: Red;
+	margin: 0px 5px 0px 5px;
+}

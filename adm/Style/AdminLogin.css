@@ -1,0 +1,30 @@
+﻿*{ margin:0px; padding:0px}
+html,body { font-family:黑体; font-size:13px; width:100%; height:100%; background-color:#fafafe;color:#284974;background-image:url(../images/content_bg.gif); background-repeat:repeat-x;}
+
+a{ color:#284974; outline:0}
+a:active{start:expression(this.hideFocus=true)}
+
+textarea{ overflow:auto}
+div.show_message{ position:absolute; top:0px; left:0px; width:100%; height:100%; display:none; background-color:#fff; background-image:url(../images/loading.gif); background-repeat:no-repeat; background-position:center 20px}
+div.show_message p{ padding-top:100px}
+input,textarea,select{ color:#284974;border:solid 1px #ddd}
+
+/*————————————————login.aspx————————————————*/
+#login{ width:980px; height:auto; margin:0px auto; padding-top:100px; color:#1e1e1e}
+#login #left{ float:left}
+#login #left #title{ margin-left:10px;}
+#login #left div{ margin-bottom:10px}
+#login #middle{ width:248px; background-image:url(../images/login_13.gif); float:left;}
+#login #middle #m_t{background-image:url(../images/login_16.gif); height:89px;}
+#login #middle #user_login{ padding:10px 0;}
+#login #middle #user_login p{ height:20px; line-height:20px;padding:12px 25px;}
+#login #middle #user_login #validate{cursor:pointer; margin-left:5px; vertical-align:bottom; width:50px; height:22px; }
+#login #middle #user_login input{ border:solid 1px #555; height:18px; line-height:18px; width:130px; padding:1px 2px;  color:#1e1e1e}
+#login #right{ float:left; padding-top:89px;}
+#login #left #l_co{ height:38px; width:682px; background-image:url(../images/login_18.gif); line-height:38px;color:#fff}
+#login #left #l_co span{ font-weight:bold; font-size:15px; margin:0px 15px;}
+#login #left #l_co label{ color:#000; margin-left:50px;}
+#login #middle #click{ text-align:center;}
+#login #middle #click input{ font-weight:normal; background-image:url(../images/bt_bg.gif); border:outset 1px #fff; font-size:13px; height:26px; line-height:26px; width:70px; margin:0px 10px; cursor:pointer;  color:#1e1e1e}
+#login #middle #click input:hover{ border:inset 1px #ddd}
+#login #middle #user_login #txtCode{ width:70px;}

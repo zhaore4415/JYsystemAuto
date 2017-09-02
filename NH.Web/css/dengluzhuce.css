@@ -1,0 +1,88 @@
+body{margin:0;}
+img{display:block;}
+*{ font-family:"微软雅黑";}
+a{ text-decoration:none;}
+input{ margin:0; border:none; padding:0; outline:none;}
+select{ border:none; margin:0; padding:0;}
+h1{ font-weight:normal; margin:0;}
+p{ margin:0; padding:0;}
+.baise{ width:100%; height:100%; background-color:rgba(255,255,255,0.6); position:fixed; top:0; z-index:4;}
+.dengluzhuce{ position:relative; width:1360px; height:474px;position:fixed; top:50%; margin-top:-237px; left:50%; margin-left:-680px; z-index:3}
+.denglubox{ position:absolute; right:70px;top:0; overflow:hidden}
+.yonghumingbox{ margin-top:140px;}
+.yonghuming,.mima{ width:250px; height:50px; background-color:#FFF; display:block; float:left; font-size:20px;}
+.denglubox img{ float:left;}
+.yonghumingbox,.mimabox{ overflow:hidden; margin-bottom:20px;}
+.wangjimimabox{ width:260px;}
+.wangjimimabox .wangjimima{ float:left; font-size:18px; color:#F00;}
+.wangjimimabox .zhuce{ float:right; font-size:18px; color:#000}
+.dengluanniu{ margin-top:28px; background-image:url(../images/dengluanniu.png); width:259px; height:54px;}
+/*修改密码*/
+.xiugaimimabox{ width:1000px; height:559px; position:fixed; z-index:5; left:50%; top:50%; margin-left:-500px; margin-top:-280px;}
+/*验证 修改 完成*/
+.hengxian{ width:696px; height:12px; background-color:#FFF; position:relative; position:absolute; top:36px; left:50%; margin-left:-348px; display:block;}
+.xiugaimima{ position:relative}
+.baiyuan-1,.duihao-1{ position:absolute; left:-5px; top:50%; margin-top:-18px;}
+.baiyuan-3,.duihao-3{ position:absolute; right:-5px; top:50%; margin-top:-18px;}
+.baiyuan-2,.duihao-2{ position:absolute; left:50%; margin-left:-18px; top:50%; margin-top:-18px;}
+.duihao-1,.duihao-2,.duihao-3{ display:none}
+.hengxian p{ font-size:24px;}
+.hengxian .p-1{position:absolute; left:-10px;top:30px;}
+.hengxian .p-2{ position:absolute; left:50%; margin-left:-23px;top:30px;}
+.hengxian .p-3{ position:absolute; right:-10px;top:30px;}
+
+.yzxgwcbox{ position:absolute; top:155px; left:330px;}
+/*验证*/
+.duihao-1{ display:block;}
+.yanzhengbox{ display:block;}
+.yanzhengbox p{ font-size:18px; line-height:32px; margin-right:40px; float:left;}
+.shoujiyouxiangbox{ overflow:hidden;}
+.shoujiyouxiangbox .shoujiyouxiang{width:200px; height:32px; background-color:#FFF;float:left;}
+.shoujiyouxiangbox img{ float:left}
+.yanzhengmabox{margin-top:20px; margin-bottom:40px; overflow:hidden}
+.yanzhengmabox p{ margin-left:97px; float:left;}
+.yanzhengmabox .yanzhengma{ width:130px; height:32px; background-color:#FFF;float:left;}
+.yanzhengmabox img{ float:left}
+.btn{ display:block; background-image:url(../images/xiayibu-2.png); width:140px; height:40px; margin-left:70px;}
+/*修改*/
+.duihao-2{ display:none;}
+.xiugaibox{ display:none;}
+.xiugaibox p{ font-size:18px; line-height:32px; margin-right:40px; float:left;}
+.chongxinbox{ overflow:hidden;}
+.chongxinbox .shoujiyouxiang{width:200px; height:32px; background-color:#FFF;float:left;}
+.chongxinbox img{ float:left}
+.zaicibox{margin-top:20px; margin-bottom:40px; overflow:hidden}
+.zaicibox p{float:left;}
+.zaicibox .yanzhengma{ width:200px; height:32px; background-color:#FFF;float:left;}
+.zaicibox img{ float:left}
+/*与上面输入的密码不同*/
+.zaicibox .p-2{ float:left; font-size:14px; color:#F00; margin-left:15px; display:none;}
+/*完成*/
+.duihao-3{ display:none;}
+.wanchengbox{ display:none}
+.wanchengbox .btn{ display:block; background-image:url(../images/xiugaichenggong.png); width:140px; height:40px; margin-left:105px;}
+/*修改密码*/
+.bigbox{ display:block;}
+/*代理商申请*/
+.dailishangbox{ width:480px; position:absolute; left:50%; margin-left:-240px; top:0;}
+.dailishangbox .topwenzi{ font-size:24px; text-align:center; line-height:70px;}
+.xinxizuobox{ float:left; overflow:hidden;}
+.xinxiyoubox{ float:right; overflow:hidden;}
+.xinxibox{ margin-bottom:18px; overflow:hidden;}
+.xinxibox input{width:210px; height:40px; background-color:#FFF;float:left; font-size:16px;}
+.xinxibox img{ float:left}
+.xinxibox-2{ clear:both; margin-top:18px;}
+/*城市选择*/
+.dizhixuanze{ clear:both; overflow:hidden;}
+.chengshixuanze select{ width:132px; height:24px; display:block; background-color:#FFF; float:left;}
+.chengshixuanze *{ float:left;}
+.chengshixuanze{ float:left; margin-left:33px;}
+.chengshi{ margin-left:0}
+.tijiaobox .btn-2{background-image:url(../images/tijiaoanniu.png); width:175px; height:47px;margin-left:auto; margin-right:auto;}
+.tijiaobox{width:175px; height:47px;margin-left:auto; margin-right:auto; overflow:hidden;}
+/*经过效果*/
+.wangjimimabox p:hover{ cursor:pointer;}
+.btn:hover{ cursor:pointer;}
+.tijiaobox .btn-2:hover{ cursor:pointer;}
+.dengluanniu:hover{ cursor:pointer;}
+.guanbianniu{ background-image:url(../images/guanbianniu.png); width:18px; height:18px; position:absolute; top:5px; right:5px; z-index:7; display:block;}

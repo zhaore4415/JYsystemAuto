@@ -1,0 +1,147 @@
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\ZhuoYing.DAL.dll
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\ZhuoYing.DAL.pdb
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\ZhuoYing.Model.dll
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\System.Data.SQLite.dll
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\wwwroot\ZhuoYing\NH.DAL\bin\Debug\ZhuoYing.Model.pdb
+F:\wwwroot\ZhuoYing\NH.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\wwwroot\ZhuoYing\NH.DAL\obj\Debug\ZhuoYing.DAL.dll
+F:\wwwroot\ZhuoYing\NH.DAL\obj\Debug\ZhuoYing.DAL.pdb
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\System.Data.SQLite.dll
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.DAL.dll
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.DAL.pdb
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.Model.dll
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.Model.pdb
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.dll
+F:\wwwroot\xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.pdb
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.DAL.dll
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.DAL.pdb
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.Model.dll
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.Model.pdb
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.dll
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.pdb
+F:\wwwroot\26xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.DAL.dll
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.Model.dll
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\bin\Debug\NH.Model.pdb
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.dll
+E:\赵欢\网站建设\26xgx 鑫贯线人才网\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\ERP风头\NH.DAL\bin\Debug\NH.DAL.dll
+E:\赵欢\网站建设\ERP风头\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\ERP风头\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\赵欢\网站建设\ERP风头\NH.DAL\bin\Debug\NH.Model.dll
+E:\赵欢\网站建设\ERP风头\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\赵欢\网站建设\ERP风头\NH.DAL\bin\Debug\NH.Model.pdb
+E:\赵欢\网站建设\ERP风头\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\ERP风头\NH.DAL\obj\Debug\NH.DAL.dll
+E:\赵欢\网站建设\ERP风头\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\ERP\NH.DAL\bin\Debug\NH.DAL.dll
+E:\赵欢\网站建设\ERP\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\ERP\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\赵欢\网站建设\ERP\NH.DAL\bin\Debug\NH.Model.dll
+E:\赵欢\网站建设\ERP\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\赵欢\网站建设\ERP\NH.DAL\bin\Debug\NH.Model.pdb
+E:\赵欢\网站建设\ERP\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\ERP\NH.DAL\obj\Debug\NH.DAL.dll
+E:\赵欢\网站建设\ERP\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\bin\Debug\NH.DAL.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\bin\Debug\NH.Model.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\bin\Debug\NH.Model.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\obj\Debug\NH.DAL.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp\NH.DAL\obj\Debug\NH.DAL.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\bin\Debug\NH.DAL.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\bin\Debug\NH.DAL.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\bin\Debug\NH.Model.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\bin\Debug\NH.Model.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\obj\Debug\NH.DAL.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\夏伟项目\xp\NH.DAL\obj\Debug\NH.DAL.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\bin\Debug\NH.DAL.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\bin\Debug\NH.DAL.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\bin\Debug\NH.Model.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\bin\Debug\NH.Model.pdb
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\obj\Debug\NH.DAL.dll
+F:\赵欢网站建设\南禾网站建设客户\2015\2015-05\夏伟\xp20150902\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\bin\Debug\NH.DAL.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\bin\Debug\NH.Model.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\bin\Debug\NH.Model.pdb
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\obj\Debug\NH.DAL.dll
+E:\赵欢\网站建设\2015\201505\夏伟\项目\xp20150905\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\bin\Debug\NH.DAL.dll
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\bin\Debug\NH.Model.dll
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\bin\Debug\NH.Model.pdb
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\obj\Debug\NH.DAL.dll
+E:\赵欢\网站建设\风头电子网站建设\夏伟\xp20150905\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\bin\Debug\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\bin\Debug\NH.Model.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\bin\Debug\NH.Model.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\obj\Debug\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystem\NH.DAL\obj\Debug\NH.DAL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.DAL.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.Model.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.Model.pdb
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.dll
+E:\风头电子商务\风头电子商务\分销系统\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\bin\Debug\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\FenXiaoSystemAuto\NH.DAL\obj\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\NH.Model.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\Maticsoft.DBUtility.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\NH.Model.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\obj\Debug\NH.DAL.csprojResolveAssemblyReference.cache
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\obj\Debug\NH.DAL.dll
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\obj\Debug\NH.DAL.pdb
+D:\赵欢网站建设\南禾网站建设客户\风头内部相关的网站 及 资料\BK护肤品经营者系统\JYsystemAuto\NH.DAL\bin\Debug\log4net.dll

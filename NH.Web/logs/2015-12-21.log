@@ -1,0 +1,103 @@
+2015-12-21 15:15:10.025 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:15:10.026 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:15:10.043 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[8a4065a407b349a38dfeffd23293f26b]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221151510990]]></out_trade_no><product_id><![CDATA[15122115134125]]></product_id><sign><![CDATA[865475A8A3B3E2C9808A34A76821F342]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221152510]]></time_expire><time_start><![CDATA[20151221151510]]></time_start><total_fee><![CDATA[2]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:15:20.345 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[你的操作过于频繁，请稍后再试]]></return_msg>
+</xml>
+2015-12-21 15:16:18.628 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:16:18.628 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:16:18.629 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[8010369d2574466d98f7c8ef7a782cb5]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[12406494022015122115161870]]></out_trade_no><product_id><![CDATA[15122115134125]]></product_id><sign><![CDATA[BB8C237229D47F0E52FD33C9311C521F]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221152618]]></time_expire><time_start><![CDATA[20151221151618]]></time_start><total_fee><![CDATA[2]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:16:19.966 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[你的操作过于频繁，请稍后再试]]></return_msg>
+</xml>
+2015-12-21 15:17:08.400 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:17:08.401 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:17:08.408 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[b9482793aaaa468d9532673825c7cc44]]></nonce_str><notify_url><![CDATA[http://localhost:3518/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[12406494022015122115170888]]></out_trade_no><product_id><![CDATA[15122115134125]]></product_id><sign><![CDATA[CFD9FA69B1B7AFA8AA793657AB6E363D]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221152708]]></time_expire><time_start><![CDATA[20151221151708]]></time_start><total_fee><![CDATA[2]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:17:09.454 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[你的操作过于频繁，请稍后再试]]></return_msg>
+</xml>
+2015-12-21 15:17:40.078 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:17:40.079 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:17:40.079 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[fc6f026cf8024136b46e72e726a6a9ac]]></nonce_str><notify_url><![CDATA[http://localhost:3518/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221151740701]]></out_trade_no><product_id><![CDATA[15122115171948]]></product_id><sign><![CDATA[E484115BD5D75AF34C6711424113A1DC]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221152740]]></time_expire><time_start><![CDATA[20151221151740]]></time_start><total_fee><![CDATA[1]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:17:45.869 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[FAIL]]></return_code>
+<return_msg><![CDATA[你的操作过于频繁，请稍后再试]]></return_msg>
+</xml>
+2015-12-21 15:53:54.454 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:53:54.455 INFO ASP.member_nativepaypage_aspx:  OrderNumber: 15122115534719
+2015-12-21 15:53:54.455 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:53:54.461 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[a437f7e84aa64d59a5f952f57ca771fd]]></nonce_str><notify_url><![CDATA[http://localhost:3518/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221155354244]]></out_trade_no><product_id><![CDATA[15122115534719]]></product_id><sign><![CDATA[EC8837A18CEB6A90A21CDBCC7F921D1C]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221160354]]></time_expire><time_start><![CDATA[20151221155354]]></time_start><total_fee><![CDATA[1]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:53:55.055 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[S29eoCFwaj4eWM7a]]></nonce_str>
+<sign><![CDATA[127A26AB971A3041B51C2A6C7437B564]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20151221155350023a8099110965036132]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=Jt4hmnX]]></code_url>
+</xml>
+2015-12-21 15:53:55.063 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=Jt4hmnX
+2015-12-21 15:56:08.931 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:56:08.932 INFO ASP.member_nativepaypage_aspx:  OrderNumber: 15122115555623
+2015-12-21 15:56:08.932 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:56:08.933 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[c82f85e6f79c45df9624fdbad36f5111]]></nonce_str><notify_url><![CDATA[http://localhost:3518/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221155608730]]></out_trade_no><product_id><![CDATA[15122115555623]]></product_id><sign><![CDATA[98F9F9C27F6ABFB55C05E509BE25808E]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221160608]]></time_expire><time_start><![CDATA[20151221155608]]></time_start><total_fee><![CDATA[1]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:56:09.545 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[KqYtWlvFm1jQXjvF]]></nonce_str>
+<sign><![CDATA[7496156CDEEACB5032BA7D0A33CAD582]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20151221155605927845b5810666311307]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=wtNunf3]]></code_url>
+</xml>
+2015-12-21 15:56:09.582 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=wtNunf3
+2015-12-21 15:56:56.550 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 15:56:58.403 INFO ASP.member_nativepaypage_aspx:  OrderNumber: 15122115555623
+2015-12-21 15:57:25.705 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 15:57:25.796 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[155f53c9d6244443afb07e33241cd591]]></nonce_str><notify_url><![CDATA[http://localhost:3518/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221155725177]]></out_trade_no><product_id><![CDATA[15122115555623]]></product_id><sign><![CDATA[A0EFA0933AFC1F64CEE343AE719D6BBC]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221160725]]></time_expire><time_start><![CDATA[20151221155725]]></time_start><total_fee><![CDATA[1]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 15:57:26.285 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[yAwPOKIqBAm108Hw]]></nonce_str>
+<sign><![CDATA[DA3AC8F7B63C61CF40F601063846064F]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2015122115572118306ae61d0722931560]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=aOBWxGs]]></code_url>
+</xml>
+2015-12-21 15:57:26.286 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=aOBWxGs
+2015-12-21 18:21:18.960 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 19:29:31.042 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 19:29:31.045 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 19:29:31.077 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[3b69a26795184056bad62480289b314c]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221192931265]]></out_trade_no><product_id><![CDATA[15122119141890]]></product_id><sign><![CDATA[CEEEA95C00C702424C22710809A5DAE4]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221193931]]></time_expire><time_start><![CDATA[20151221192931]]></time_start><total_fee><![CDATA[1]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 19:29:31.587 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[VAF2kW7paEa0fWXj]]></nonce_str>
+<sign><![CDATA[7E6B290F1C7A0DE4F12B4A9A7F6BFBAF]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20151221192927ff00e0325d0485550090]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=aVDVyrQ]]></code_url>
+</xml>
+2015-12-21 19:29:31.680 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=aVDVyrQ
+2015-12-21 19:29:58.348 INFO ASP.member_nativepaypage_aspx: page load
+2015-12-21 19:29:58.349 INFO WxPayAPI.NativePay: Native pay mode 2 url is producing...
+2015-12-21 19:29:58.350 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wx9596e62a0ace7794]]></appid><attach><![CDATA[buccker]]></attach><body><![CDATA[测试2]]></body><goods_tag><![CDATA[19]]></goods_tag><mch_id><![CDATA[1240649402]]></mch_id><nonce_str><![CDATA[653cb388322d4d1c810c430f57fcd406]]></nonce_str><notify_url><![CDATA[http://fx.buccker.net/Member/ResultNotifyPage.aspx]]></notify_url><out_trade_no><![CDATA[124064940220151221192958550]]></out_trade_no><product_id><![CDATA[15122119293742]]></product_id><sign><![CDATA[2DDCABC9C129551F769D015C7615D09B]]></sign><spbill_create_ip><![CDATA[115.28.1.223]]></spbill_create_ip><time_expire><![CDATA[20151221193958]]></time_expire><time_start><![CDATA[20151221192958]]></time_start><total_fee><![CDATA[2]]></total_fee><trade_type><![CDATA[NATIVE]]></trade_type></xml>
+2015-12-21 19:29:58.827 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wx9596e62a0ace7794]]></appid>
+<mch_id><![CDATA[1240649402]]></mch_id>
+<nonce_str><![CDATA[9iRxsff2wxhidgwB]]></nonce_str>
+<sign><![CDATA[5E79F3FFE216B640E588D34604EDEFBF]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20151221192954d0bbf7d12f0228041743]]></prepay_id>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<code_url><![CDATA[weixin://wxpay/bizpayurl?pr=iRtlUZc]]></code_url>
+</xml>
+2015-12-21 19:29:58.852 INFO WxPayAPI.NativePay: Get native pay mode 2 url : weixin://wxpay/bizpayurl?pr=iRtlUZc

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://219.133.59.101/GeneralSMS/ws/SmsInterface" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://219.133.59.101/GeneralSMS/ws/SmsInterface" targetNamespace="http://219.133.59.101/GeneralSMS/ws/SmsInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="getMoMsgRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="lastId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getSendCountRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="startDate" type="xsd:string" />
+    <wsdl:part name="endDate" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="clusterSendResponse">
+    <wsdl:part name="clusterSendReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="setUserInfoResponse">
+    <wsdl:part name="setUserInfoReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="setUserInfoRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="newPassword" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="clusterSendRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="from" type="xsd:string" />
+    <wsdl:part name="to" type="xsd:string" />
+    <wsdl:part name="text" type="xsd:string" />
+    <wsdl:part name="presendTime" type="xsd:string" />
+    <wsdl:part name="isVoice" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfoRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfoResponse">
+    <wsdl:part name="getUserInfoReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getSendCountResponse">
+    <wsdl:part name="getSendCountReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getMoMsgResponse">
+    <wsdl:part name="getMoMsgReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="SmsInterface">
+    <wsdl:operation name="getUserInfo" parameterOrder="username password">
+      <wsdl:input name="getUserInfoRequest" message="impl:getUserInfoRequest" />
+      <wsdl:output name="getUserInfoResponse" message="impl:getUserInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="setUserInfo" parameterOrder="username password newPassword">
+      <wsdl:input name="setUserInfoRequest" message="impl:setUserInfoRequest" />
+      <wsdl:output name="setUserInfoResponse" message="impl:setUserInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="clusterSend" parameterOrder="username password from to text presendTime isVoice">
+      <wsdl:input name="clusterSendRequest" message="impl:clusterSendRequest" />
+      <wsdl:output name="clusterSendResponse" message="impl:clusterSendResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getMoMsg" parameterOrder="username password lastId">
+      <wsdl:input name="getMoMsgRequest" message="impl:getMoMsgRequest" />
+      <wsdl:output name="getMoMsgResponse" message="impl:getMoMsgResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSendCount" parameterOrder="username password startDate endDate">
+      <wsdl:input name="getSendCountRequest" message="impl:getSendCountRequest" />
+      <wsdl:output name="getSendCountResponse" message="impl:getSendCountResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SmsInterfaceSoapBinding" type="impl:SmsInterface">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getUserInfo">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getUserInfoRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws.sms.surge.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getUserInfoResponse">
+        <wsdlsoap:body use="encoded" namespace="http://219.133.59.101/GeneralSMS/ws/SmsInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setUserInfo">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="setUserInfoRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws.sms.surge.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="setUserInfoResponse">
+        <wsdlsoap:body use="encoded" namespace="http://219.133.59.101/GeneralSMS/ws/SmsInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="clusterSend">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="clusterSendRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws.sms.surge.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="clusterSendResponse">
+        <wsdlsoap:body use="encoded" namespace="http://219.133.59.101/GeneralSMS/ws/SmsInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMoMsg">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getMoMsgRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws.sms.surge.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getMoMsgResponse">
+        <wsdlsoap:body use="encoded" namespace="http://219.133.59.101/GeneralSMS/ws/SmsInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSendCount">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getSendCountRequest">
+        <wsdlsoap:body use="encoded" namespace="http://ws.sms.surge.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getSendCountResponse">
+        <wsdlsoap:body use="encoded" namespace="http://219.133.59.101/GeneralSMS/ws/SmsInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SmsInterfaceService">
+    <wsdl:port name="SmsInterface" binding="impl:SmsInterfaceSoapBinding">
+      <wsdlsoap:address location="http://ws.iems.net.cn/GeneralSMS/ws/SmsInterface" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="/Script/jquery-1.4.1.min.js"></script>
+    <!--<script type="text/javascript">
+        $(function () {
+            var first = $("#first"); // 获得ID为first标签的jQuery对象
+            var second = $("#second"); // 获得ID为first标签的jQuery对象
+            var sumSP = $("#sumSP"); // 获得ID为first标签的jQuery对象
+            //var JiSuan = $("#JiSuan").find("option:selected").text();
+            //alert(JiSuan);
+            $("#JiSuan").click(function () {
+
+                var num1 = first.val(); // 取得first对象的值
+                var num2 = second.val(); // 取得second对象的值
+                //                var sum = (num1 - 0) + (num2 - 0);
+                //                sumSP.text(sum);
+                var num = num1 * num2;
+                $("#first").val(num);
+
+            });
+          
+        });
+    </script>-->
+    <script type="text/javascript">
+        $(function () {
+            var first = $("#first"); // 获得ID为first标签的jQuery对象  
+            var second = $("#second"); // 获得ID为first标签的jQuery对象  
+            var sumSP = $("#sumSP"); // 获得ID为first标签的jQuery对象  
+            first.change(function () {
+                var num1 = first.val(); // 取得first对象的值  
+                var num2 = second.val(); // 取得second对象的值  
+                var sum = add(num1, num2);
+                sumSP.text(sum);
+            });
+            second.change(function () {
+                var num1 = first.val();
+                var num2 = second.val();
+                var sum = add(num1, num2);
+                sumSP.text(sum);
+            });
+        });
+
+        function add(arg1, arg2) {
+            var a1, a2, m;
+            try {
+                a1 = arg1.toString().split(".")[1].length
+            } catch (e) {
+                a1 = 0;
+            }
+            try {
+                a2 = arg2.toString().split(".")[1].length
+            } catch (e) {
+                a2 = 0;
+            }
+            m = Math.pow(10, Math.max(a1, a2));
+            return (arg1 * m + arg2 * m) / m;
+        }  
+</script> 
+</head>
+<body>
+    <center>
+        <form action="">
+        <!-- <select name="JiSuan" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;JiSuan\&#39;,\&#39;\&#39;)&#39;, 0)" id="JiSuan" class="in_select">
+	<option selected="selected" value="0">否</option>
+	<option value="1">是</option>-->
+    <input type="button" value="计算" id="JiSuan"/>
+        第一个数：<input type="text" size="25" id="first" /><br /><br />  
+        第二个数：<input type="text" size="25" id="second" /><br /><br />  
+        它们的和：<span id="sumSP" style="color:red"></span>  
+        </form>
+    </center>
+</body>
+</html>
